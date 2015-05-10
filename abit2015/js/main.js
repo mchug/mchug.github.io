@@ -19,7 +19,7 @@ function updateUrl() {
     }
 
     if (window.history.replaceState !== undefined) {
-        window.history.replaceState(searchText, (searchText != "" ? "#КПІгугл: " + searchText : "#КПІгугл"), (searchText != "" ? "/?search=" + searchText : "/"));
+        window.history.replaceState(searchText, (searchText != "" ? "#КПІгугл: " + searchText : "#КПІгугл"), (searchText != "" ? window.location.pathname + "?search=" + searchText : window.location.pathname));
     }
 }
 
@@ -67,9 +67,9 @@ function getParam(key) {
 var facsInfo;
 var people;
 
-$.getJSON("../data/facs.json", function(data) {
+$.getJSON("data/facs.json", function(data) {
     facsInfo = data;
-    $.getJSON("../data/people.json", function(data) {
+    $.getJSON("data/people.json", function(data) {
         people = data;
         var key = getParam("search");
         $("#search-text").val(key);
