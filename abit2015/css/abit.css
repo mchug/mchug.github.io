@@ -1,0 +1,306 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open_Sans.eot');
+	src: url('../fonts/Open_Sans.eot?#iefix') format('embedded-opentype'), url('../fonts/Open_Sans.woff2') format('woff2'), url('../fonts/Open_Sans.woff') format('woff'), url('../fonts/Open_Sans.ttf') format('truetype'), url('../fonts/Open_Sans.svg#open_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/Open_Sans_Bold.eot');
+	src: url('../fonts/Open_Sans_Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Open_Sans_Bold.woff2') format('woff2'), url('../fonts/Open_Sans_Bold.woff') format('woff'), url('../fonts/Open_Sans_Bold.ttf') format('truetype'), url('../fonts/Open_Sans_Bold.svg#open_sansbold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+.table-hover>tbody>tr:hover {
+	background-color: #eee;
+	cursor: pointer;
+	transition: background .2s;
+}
+.table-hover>tbody>tr.clicked {
+	background-color: #eee;
+}
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group {
+	box-shadow: none;
+	margin-left: 10px;
+}
+input[type=text].form-control:read-only {
+	box-shadow: inset 0 -1px 0 #ddd;
+	border: none;
+}
+input[type=text].form-control {
+	padding-left: 5px;
+}
+input[type=text].form-control:focus,
+input[type=text].form-control:hover,
+input[type=text].form-control:active {
+	box-shadow: inset 0 -2px 0 #439a46;
+	transition: all .2s;
+}
+h1 {
+	color: #222;
+	font-size: 60px;
+	text-align: center;
+}
+.input-group-btn:last-child>.btn {
+	border-radius: 0;
+}
+.search {
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+.header {
+	margin-top: 50px;
+	text-align: center;
+}
+.header > div > h4 {
+	font-size: 18px;
+	color: #666;
+}
+.header > h1 > a,
+.header > h1 > a:visited,
+.header > h1 > a:focus {
+	color: #4caf50;
+	text-decoration: none;
+}
+.header > h1 > a:hover,
+.header > h1 > a:active {
+	transition: all .2s;
+	color: #439a46;
+	text-decoration: underline;
+}
+
+#homeLink {
+	color: #222;
+}
+
+#homeLink:hover,
+#homeLink:active,
+#homeLink:focus{
+	color: #444;
+	text-decoration: none;
+}
+
+.mainTable {
+	margin-top: 30px;
+}
+th:hover {
+	background-color: #ddd;
+	cursor: pointer;
+	transition: background .2s;
+}
+.table thead .glyphicon {
+	float: right;
+	color: white;
+	line-height: 1.7;
+}
+.table tbody .glyphicon {
+	margin-left: 5px;
+	color: white;
+	line-height: 1.7;
+}
+.table {
+	color: #444;
+	background-color: white;
+}
+body {
+	background-image: url(../images/back.jpg);
+}
+.form-control::-webkit-input-placeholder {
+	color: #444;
+}
+.form-control:-moz-placeholder {
+	color: #444;
+}
+.form-control::-moz-placeholder {
+	color: #444;
+}
+.form-control:-ms-input-placeholder {
+	color: #444;
+}
+td + .department {
+	max-width: 300px;
+}
+td + .way {
+	max-width: 250px;
+}
+td + .faculty {
+	min-width: 120px;
+}
+td + .name {
+	min-width: 170px;
+}
+td + .hostel {
+	min-width: 130px;
+}
+td + .course {
+	min-width: 90px;
+}
+table>tbody>tr>td.num,
+table>thead>tr>th#col-num {
+	padding-left: 15px;
+	min-width: 50px;
+}
+.moreInfo {
+	background-color: white;
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.progress-label-r {
+	float: right;
+	margin-left: 0.65em;
+	margin-top: -0.65em;
+}
+.progress-label-l {
+	float: left;
+	margin-right: 0.65em;
+	margin-top: -0.65em;
+	font-weight: bold;
+}
+.scores {
+	margin-top: 10px;
+}
+.block-title {
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 10px;
+}
+.faculty > h1 {
+	text-align: left;
+	margin-top: 10px;
+}
+.departments > p {
+	margin-bottom: 0px;
+}
+.container {
+	min-width: 1170px;
+	background-color: rgba(255, 255, 255, 0.85);
+	min-height: 100%;
+	margin-top: 60px;
+	margin-bottom: 45px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-bottom: 15px;
+}
+.help {
+	background-color: white;
+	padding: 15px;
+	/*margin-left: 15px;*/
+	/*margin-right: 15px;*/
+}
+.help > h3 {
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #666;
+}
+.help > h4,
+.help > .table-big {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.help > p {
+	font-size: 14pt;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.help > div > p {
+	font-size: 14pt;
+}
+.help > div > p > .btn {
+	box-shadow: none;
+}
+.demo-sort {
+	background-color: #ddd;
+}
+.mainTable {
+	margin-bottom: 30px;
+}
+#go-up .glyphicon {
+	position: relative;
+	top: 50%;
+	left: -1px;
+	text-align: center;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+}
+#go-up {
+	opacity: 0.25;
+	cursor: pointer;
+	background-color: #000;
+	font-size: 30px;
+	width: 40px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	color: white;
+}
+#go-up:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}
+@media (max-width: 1280px) {
+	.container {
+		min-width: 960px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#go-up {
+		width: 30px;
+	}
+	td + .way {
+		max-width: 200px;
+	}
+}
+@media (max-width: 960px) {
+	.container {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+.header > div > .about {
+	text-align: left;
+	margin-top: 30px;
+	color: #444;
+	padding: 15px 20px;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+.header > div > .about p {
+	font-size: 12pt;
+}
+h4 .about {
+	color: #2196f3;
+	cursor: pointer;
+}
+h4 .about:hover {
+	transition: all .2s;
+	color: #0a6ebd;
+	text-decoration: underline;
+}
+
+#createdBy {
+	margin: 0 auto;
+	width: 240px;
+	font-size: 11pt;
+	margin-bottom: 30px;
+}
+
+#createdBy a {
+	font-weight: bold;
+	color: #444;
+}
+
+#createdBy p {
+	margin-top: -5px;
+	font-size: 8pt;
+}
