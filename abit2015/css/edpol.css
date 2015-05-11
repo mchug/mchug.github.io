@@ -9,7 +9,7 @@
     font-weight: normal;
     font-style: normal;
 }
-[class*='icon-']:before{
+.icon:before{
 	display: inline-block;
    font-family: 'EDPOL';
    font-style: normal;
