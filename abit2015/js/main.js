@@ -249,10 +249,10 @@ function display(searchResult) {
         "<thead>" +
         "<tr>" +
         "<th id=\"col-num\" onclick=\"sortBy(this,'num');\">#<span class=\"glyphicon glyphicon-sort\"></span></th>" +
-        "<th id=\"col-name\" onclick=\"sortBy(this,'name');\">Ім'я<span class=\"glyphicon glyphicon-sort\"></span></th>" +
-        "<th id=\"col-faculty\" onclick=\"sortBy(this,'faculty');\">Факультет<span class=\"glyphicon glyphicon-sort\"></span></th>" +
-        "<th id=\"col-department\" onclick=\"sortBy(this,'department');\">Кафедра<span class=\"glyphicon glyphicon-sort\"></span></th>" +
         "<th id=\"col-way\" onclick=\"sortBy(this,'way');\">Напрям<span class=\"glyphicon glyphicon-sort\"></span></th>" +
+        "<th id=\"col-faculty\" onclick=\"sortBy(this,'faculty');\">Факультет<span class=\"glyphicon glyphicon-sort\"></span></th>" +
+        // "<th id=\"col-department\" onclick=\"sortBy(this,'department');\">Кафедра<span class=\"glyphicon glyphicon-sort\"></span></th>" +
+        "<th id=\"col-name\" onclick=\"sortBy(this,'name');\">Ім'я<span class=\"glyphicon glyphicon-sort\"></span></th>" +
         "<th id=\"col-course\" onclick=\"sortBy(this,'course');\">Курс<span class=\"glyphicon glyphicon-sort\"></span></th>" +
         "<th id=\"col-hostel\" onclick=\"sortBy(this,'hostel');\">Гуртожиток<span class=\"glyphicon glyphicon-sort\"></span></th>" +
         "</tr>" +
@@ -262,12 +262,12 @@ function display(searchResult) {
     searchResult.forEach(function(item) {
         out += "<tr onclick=\"showMore(this)\">" +
             "<td class=\"num\">" + ($.inArray(item, people) + 1) + "</td>" +
-            "<td class=\"name\"><a href=\"http://" + item.page + "\" target=\"_blank\">" + item.name + "</a></td>" +
-            "<td class=\"faculty\">" + getShortName(item.faculty) + "<span class='glyphicon glyphicon-info-sign'></span></td>" +
-            "<td class=\"department\">" + item.department + "</td>" +
             "<td class=\"way\">" + item.way + "</td>" +
-            "<td class=\"course\">" + (item.course == null ? "Випускник" : item.course + " курс") + "</td>" +
-            "<td class=\"hostel\">" + (item.hostel == null ? "Київ" : item.hostel + " гурт.") + "</td>" +
+            "<td class=\"faculty\">" + getShortName(item.faculty) + "<span class='glyphicon glyphicon-info-sign'></span></td>" +
+            // "<td class=\"department\">" + item.department + "</td>" +
+            "<td class=\"name\"><a href=\"http://" + item.page + "\" target=\"_blank\">" + item.name + "</a></td>" +
+            "<td class=\"course\">" + item.course + "</td>" +
+            "<td class=\"hostel\">" + (item.hostel == false ? "<span class='glyphicon glyphicon-unchecked'></span>" : "<span class='glyphicon glyphicon-check'></span>") + "</td>" +
             "</tr>";
     });
 
@@ -283,12 +283,13 @@ function display(searchResult) {
     });
 }
 
-var specialKeys = ["гайд"];
+var specialKeys = ["гайд","про бали зно"];
 
 function displaySpecial(key) {
 
     var map = {
-        "гайд": "help.html"
+        "гайд": "help.html",
+        "про бали зно": "zno.html"
     };
 
 
@@ -400,7 +401,7 @@ function showMore(row) {
         info += "<p><b>" + item["short-name"] + "</b> " + item["full-name"] + "</p>";
     });
 
-    info += "</div></div><div class=\"row block-title\"><b>Напрями</b></div>";
+    info += "</div></div><div class=\"row block-title\"><b>Напрями</b><a href='?search=про бали зно' class='why-scores'>Чому бали у відсотках?</a></div>";
 
     for (var i = 0; i < faculty.ways.length; i += 3) {
 
@@ -532,7 +533,7 @@ function sortBy(col, field) {
                 ga('send', 'event', 'Основные метрики', 'Сортировка', 'По факультету');
 
                 sortFunc = function(a, b) {
-                    return a["faculty"] > b["faculty"] ? 1 : -1;
+                    return ukrCompare(a["faculty"], b["faculty"]);
                 };
                 break;
 
@@ -541,16 +542,6 @@ function sortBy(col, field) {
                 ga('send', 'event', 'Основные метрики', 'Сортировка', 'По кафедре');
 
                 sortFunc = function(a, b) {
-                    if (a["department"] == "" && b["department"] != "") {
-                        return 1;
-                    }
-                    else if (b["department"] == "" && a["department"] != "") {
-                        return -1;
-                    }
-                    else if (a["department"] == "" && b["department"] == "") {
-                        return 0;
-                    }
-
                     return ukrCompare(a["department"], b["department"]);
                 };
                 break;
@@ -560,16 +551,6 @@ function sortBy(col, field) {
                 ga('send', 'event', 'Основные метрики', 'Сортировка', 'По направлению');
 
                 sortFunc = function(a, b) {
-                    if (a["way"] == "" && b["way"] != "") {
-                        return 1;
-                    }
-                    else if (b["way"] == "" && a["way"] != "") {
-                        return -1;
-                    }
-                    else if (a["way"] == "" && b["way"] == "") {
-                        return 0;
-                    }
-
                     return ukrCompare(a["way"], b["way"]);
                 };
                 break;
@@ -579,17 +560,22 @@ function sortBy(col, field) {
                 ga('send', 'event', 'Основные метрики', 'Сортировка', 'По курсу');
 
                 sortFunc = function(a, b) {
-                    if (a["course"] == null && b["course"] != null) {
-                        return 1;
-                    }
-                    else if (b["course"] == null && a["course"] != null) {
-                        return -1;
-                    }
-                    else if (a["course"] == null && b["course"] == null) {
-                        return 0;
+
+                    var getNum = function(a) {
+                        switch (a) {
+                            case "Молодший курс":
+                                return 0;
+                            case "Старший курс":
+                                return 1;
+                            default:
+                                return 2;
+                        }
                     }
 
-                    return a["course"] - b["course"];
+                    var a = getNum(a.course);
+                    var b = getNum(b.course);
+
+                    return a - b;
                 };
                 break;
 
@@ -598,17 +584,11 @@ function sortBy(col, field) {
                 ga('send', 'event', 'Основные метрики', 'Сортировка', 'По общежитию');
 
                 sortFunc = function(a, b) {
-                    if (a["hostel"] == null && b["hostel"] != null) {
-                        return 1;
-                    }
-                    else if (b["hostel"] == null && a["hostel"] != null) {
-                        return -1;
-                    }
-                    else if (a["hostel"] == null && b["hostel"] == null) {
-                        return 0;
-                    }
 
-                    return a["hostel"] - b["hostel"];
+                    var a = a.hostel == false ? "1" : "0";
+                    var b = b.hostel == false ? "1" : "0";
+
+                    return a - b;
                 };
                 break;
 

@@ -21,25 +21,41 @@ body {
 	cursor: pointer;
 	transition: background .2s;
 }
+.table-hover>tbody>tr.moreInfo:hover {
+	cursor: auto;
+	background-color: white;
+}
 .table-hover>tbody>tr.clicked {
 	background-color: #eee;
 }
 .input-group-btn:last-child>.btn,
 .input-group-btn:last-child>.btn-group {
+	font-size: 25px;
 	box-shadow: none;
 	margin-left: 10px;
 }
-input[type=text].form-control:read-only {
-	box-shadow: inset 0 -1px 0 #ddd;
-	border: none;
+.help .input-group-btn:last-child>.btn {
+	font-size: 14px;
+	box-shadow: none;
+	margin-left: 10px;
 }
 input[type=text].form-control {
+	font-size: 25px;
+	height: 60px;
+	background-color: rgba(255, 255, 255, 0.5);
 	padding-left: 5px;
+	box-shadow: inset 0 -3px 0 #ddd;
+}
+input[type=text].form-control:read-only {
+	font-size: 14px;
+	height: 38px;
+	box-shadow: inset 0 -3px 0 #ddd;
+	border: none;
 }
 input[type=text].form-control:focus,
 input[type=text].form-control:hover,
 input[type=text].form-control:active {
-	box-shadow: inset 0 -2px 0 #439a46;
+	box-shadow: inset 0 -5px 0 #439a46;
 	transition: all .2s;
 }
 h1 {
@@ -74,20 +90,18 @@ h1 {
 	color: #439a46;
 	text-decoration: underline;
 }
-
 #homeLink {
 	color: #222;
 }
-
 #homeLink:hover,
 #homeLink:active,
-#homeLink:focus{
+#homeLink:focus {
 	color: #444;
 	text-decoration: none;
 }
-
 .mainTable {
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 th:hover {
 	background-color: #ddd;
@@ -112,42 +126,43 @@ body {
 	background-image: url(../images/back.jpg);
 }
 .form-control::-webkit-input-placeholder {
-	color: #444;
+	font-style: italic;
+	color: #666;
 }
 .form-control:-moz-placeholder {
-	color: #444;
-}
-.form-control::-moz-placeholder {
-	color: #444;
+	font-style: italic;
+	color: #666;
 }
 .form-control:-ms-input-placeholder {
-	color: #444;
+	font-style: italic;
+	color: #666;
 }
 td + .department {
 	max-width: 300px;
 }
 td + .way {
-	max-width: 250px;
+	/*max-width: 250px;*/
 }
 td + .faculty {
-	min-width: 120px;
+	width: 110px;
 }
 td + .name {
-	min-width: 170px;
+	width: 110px;
 }
 td + .hostel {
-	min-width: 130px;
+	width: 140px;
 }
 td + .course {
-	min-width: 90px;
+	width: 140px;
 }
 table>tbody>tr>td.num,
 table>thead>tr>th#col-num {
 	padding-left: 15px;
-	min-width: 50px;
+	width: 50px;
 }
-.moreInfo {
-	background-color: white;
+.table .hostel .glyphicon {
+	color: #444;
+	margin-left: 40px;
 }
 .row {
 	margin-left: 0px;
@@ -166,6 +181,10 @@ table>thead>tr>th#col-num {
 }
 .scores {
 	margin-top: 10px;
+}
+.why-scores {
+	cursor: pointer;
+	float: right;
 }
 .block-title {
 	border-bottom: 1px solid #aaa;
@@ -220,9 +239,6 @@ table>thead>tr>th#col-num {
 }
 .demo-sort {
 	background-color: #ddd;
-}
-.mainTable {
-	margin-bottom: 30px;
 }
 #go-up .glyphicon {
 	position: relative;
@@ -287,20 +303,41 @@ h4 .about:hover {
 	color: #0a6ebd;
 	text-decoration: underline;
 }
-
 #createdBy {
 	margin: 0 auto;
 	width: 240px;
 	font-size: 11pt;
 	margin-bottom: 30px;
 }
-
 #createdBy a {
 	font-weight: bold;
 	color: #444;
 }
-
+#createdBy a:hover {
+	color: white;
+}
 #createdBy p {
 	margin-top: -5px;
 	font-size: 8pt;
+}
+#createdBy .icon {
+	vertical-align: text-top;
+	line-height: 0.9;
+	font-size: 30px;
+	transition: all .2s;
+}
+#edpol {
+	text-align: left;
+	margin-left: 5px;
+	width: 400px;
+}
+#edpol:hover a {
+	color: white;
+	text-decoration: none;
+}
+#edpol:hover .icon {
+	font-size: 60px;
+	line-height: 0.58;
+	transition: all .2s;
+	color: white;
 }

@@ -89,32 +89,31 @@
     <table class="table table-hover">
         <thead>
             <tr>
-                <th>#<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-num">#<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Ім'я<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-way">Напрям<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Факультет<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-faculty">Факультет<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Кафедра<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-name">Ім'я<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Напрям<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-course">Курс<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Курс<span class="glyphicon glyphicon-sort"></span>
-                </th>
-                <th>Гуртожиток<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-hostel">Гуртожиток<span class="glyphicon glyphicon-sort"></span>
                 </th>
             </tr>
         </thead>
         <tbody>
-            <tr onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Нажали на строчку таблицы (2 было)')">
-                <td class="num">42</td>
-                <td class="name"><a href="http://vk.com/define_rak">Александр Рак</a>
+            <tr class="clicked">
+                <td class="num">129</td>
+                <td class="way">Комп'ютерні науки</td>
+                <td class="faculty">ІПСА<span class="glyphicon glyphicon-info-sign"></span>
                 </td>
-                <td class="faculty">ІПСА</td>
-                <td class="department">Системного проектування</td>
-                <td class="way">Комп’ютерні науки</td>
-                <td class="course">2 курс</td>
-                <td class="hostel">7 гурт.</td>
+                <td class="name"><a href="http://vk.com/define_rak" target="_blank">Александр</a>
+                </td>
+                <td class="course">Молодший курс</td>
+                <td class="hostel"><span class="glyphicon glyphicon-check"></span>
+                </td>
             </tr>
         </tbody>
     </table>
@@ -123,39 +122,38 @@
     <table class="table table-hover">
         <thead>
             <tr>
-                <th>#<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-num">#<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Ім'я<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-way">Напрям<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Факультет<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-faculty">Факультет<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Кафедра<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-name">Ім'я<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Напрям<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-course">Курс<span class="glyphicon glyphicon-sort"></span>
                 </th>
-                <th>Курс<span class="glyphicon glyphicon-sort"></span>
-                </th>
-                <th>Гуртожиток<span class="glyphicon glyphicon-sort"></span>
+                <th id="col-hostel">Гуртожиток<span class="glyphicon glyphicon-sort"></span>
                 </th>
             </tr>
         </thead>
         <tbody>
-            <tr class="clicked" onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Нажали на строчку таблицы (2 стало)')">
-                <td class="num">42</td>
-                <td class="name"><a href="http://vk.com/define_rak">Александр Рак</a>
+            <tr class="clicked">
+                <td class="num">129</td>
+                <td class="way">Комп'ютерні науки</td>
+                <td class="faculty">ІПСА<span class="glyphicon glyphicon-info-sign"></span>
                 </td>
-                <td class="faculty">ІПСА</td>
-                <td class="department">Системного проектування</td>
-                <td class="way">Комп’ютерні науки</td>
-                <td class="course">2 курс</td>
-                <td class="hostel">7 гурт.</td>
+                <td class="name"><a href="http://vk.com/define_rak" target="_blank">Александр</a>
+                </td>
+                <td class="course">Молодший курс</td>
+                <td class="hostel"><span class="glyphicon glyphicon-check"></span>
+                </td>
             </tr>
-            <tr class="moreInfo" onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Нажали на доп. информацию (2 стало)')">
+            <tr class="moreInfo">
                 <td colspan="7">
                     <div class="row">
                         <div class="col-xs-6 faculty">
                             <h1>ІПСА</h1>
-                            <h4>Інститут Прикладного Системного Аналiзу</h4>
+                            <h4>Інститут Прикладного Системного Аналізу</h4>
                         </div>
                         <div class="col-xs-6 departments">
                             <div class="row block-title"><b>Кафедри</b>
@@ -164,11 +162,11 @@
                             <p><b>СП (САПР)</b> Системного Проектування</p>
                         </div>
                     </div>
-                    <div class="row block-title"><b>Напрямы</b>
+                    <div class="row block-title"><b>Напрями</b><a href="?search=про бали зно" class="why-scores">Чому бали у відсотках?</a>
                     </div>
                     <div class="row ways">
                         <div class="col-xs-4 way">
-                            <div class="row text-center name"><b>6.050101</b> Комп’ютерні Науки</div>
+                            <div class="row text-center name"><b>6.050101</b> Комп'ютерні Науки</div>
                             <div class="row scores"><span class="progress-label-r">84%</span><span class="progress-label-l">2014</span>
                                 <div class="progress progress-striped">
                                     <div class="progress-bar" style="width: 84%"></div>
@@ -182,7 +180,7 @@
                             </div>
                         </div>
                         <div class="col-xs-4 way">
-                            <div class="row text-center name"><b>6.040303</b> Cистемний Аналіз</div>
+                            <div class="row text-center name"><b>6.040303</b> Системний Аналіз</div>
                             <div class="row scores"><span class="progress-label-r">88%</span><span class="progress-label-l">2014</span>
                                 <div class="progress progress-striped">
                                     <div class="progress-bar" style="width: 88%"></div>
