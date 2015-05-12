@@ -1591,6 +1591,14 @@
   "course": "Молодший курс",
   "hostel": true
 }, {
+  "name": "Миша",
+  "page": "vk.com/id23263910",
+  "faculty": "FPM",
+  "department": "Програмного забезпечення комп'ютерних систем",
+  "way": "Програмна інженерія",
+  "course": "Старший курс",
+  "hostel": false
+}, {
   "name": "Артем",
   "page": "vk.com/the_metal_heart",
   "faculty": "FIOT",
@@ -2044,8 +2052,8 @@
   "faculty": "FIOT",
   "department": "Автоматики і управління в технічних системах",
   "way": "Системна інженерія",
-  "course": "Випускник",
-  "hostel": false
+  "course": "Молодший курс",
+  "hostel": true
 }, {
   "name": "Святослав",
   "page": "vk.com/svyatyksom",
