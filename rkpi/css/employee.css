@@ -1,0 +1,36 @@
+@import 'main.css';
+@import "player.css";
+
+#employee {
+    width: 766px;
+    float: left;
+}
+
+#employee-info {
+    float: right;
+    width: 346px;
+}
+
+#employee-info > h3 {
+    color: #ffae00;
+    font-size: 16px;
+    line-height: 1;
+}
+
+#employee-info > span {
+    float: left;
+    line-height: 26px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#employee-info a {
+    color: #000;
+}
+
+#employee > p {
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 26px;
+    font-size: 14px;
+}

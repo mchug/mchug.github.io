@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Радио КПИ</title>
+    <link rel="stylesheet" href="../css/programs.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/player.js"></script>
+    <script src="../js/programs.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div id="main">
+        <div id="header">
+            <button id="player" class="rhead rhead-player" onclick="radioClick(true)">
+                <span id="radioIcon" class="ricon ricon-play" aria-hidden="true"></span>
+            </button>
+            <h1><a href="../index.html">РАДИО КПИ</a>: </h1>
+            <div onclick="copyToClipboard()">
+                <span id="songTitle"></span>
+            </div>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="post.html">ПУБЛИКАЦИИ</a></li>
+                <li><a href="#">ПРОГРАММЫ</a></li>
+                <li><a href="feed.html">РЕПОРТАЖИ</a></li>
+                <li><a href="chat.html">НАПИСАТЬ В ЭФИР</a></li>
+                <li><a href="employee.html">СТАТЬ ЧАСТЬЮ РАДИО</a></li>
+                <li><a href="about-us.html">О НАС</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <div id="programs">
+                <div class="program">
+                    <a href="#"><img class="article-image" src="../img/poster.jpg"></a>
+                    <div class="program-text">
+                        <h3><a href="#">Анонс</a></h3>
+                        <p>И взята из его книги «Месневи». Учитель Руми, Хаким Санаи, приводит эту же сказку в более
+                            раннем варианте в первой книге своего суфийского классического произведения «Окруженный
+                            стеной сад истины».</p>
+                        <div class="program-info">
+                            <span>Авторы: <a href="#">Деннис Романович</a></span>
+                            <span>Формат: аудиопроизведени</span>
+                            <span>Впервые в эфире: 13 хуября 2014 года.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="program">
+                    <a href="#"><img class="article-image" src="../img/poster.jpg"></a>
+                    <div class="program-text">
+                        <h3><a href="#">Анонс</a></h3>
+                        <p>И взята из его книги «Месневи». Учитель Руми, Хаким Санаи, приводит эту же сказку в более
+                            раннем варианте в первой книге своего суфийского классического произведения «Окруженный
+                            стеной сад истины».</p>
+                        <div class="program-info">
+                            <span>Авторы: <a href="#">Деннис Романович</a></span>
+                            <span>Формат: аудиопроизведени</span>
+                            <span>Впервые в эфире: 13 хуября 2014 года.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="program">
+                    <a href="#"><img class="article-image" src="../img/poster.jpg"></a>
+                    <div class="program-text">
+                        <h3><a href="#">Анонс</a></h3>
+                        <p>И взята из его книги «Месневи». Учитель Руми, Хаким Санаи, приводит эту же сказку в более
+                            раннем варианте в первой книге своего суфийского классического произведения «Окруженный
+                            стеной сад истины».</p>
+                        <div class="program-info">
+                            <span>Авторы: <a href="#">Деннис Романович</a></span>
+                            <span>Формат: аудиопроизведени</span>
+                            <span>Впервые в эфире: 13 хуября 2014 года.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="recordings">
+                <div class="sidebar-player">
+                    <div class="player player-small" onclick="playerSmall(this, 'http://radio-kpi.podfm.ru/ukino/1005/file/podfm_radio-kpi_ukino_20150415.mp3')">
+                        <div class="player-btn" onclick="playerPause()">
+                            <span class="ricon ricon-play" aria-hidden="true"></span>
+                        </div>
+                        <div class="player-bar" onclick="playerSeekBar(event, this)" onmouseenter="playerSmallMouseFade(true)" onmouseleave="playerSmallMouseFade(false)">
+                            <div class="player-bar-buffer"></div>
+                            <div class="player-bar-current"></div>
+                            <div class="player-bar-text">
+                                <span class="player-song-title">#КПИсессия химики</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-player">
+                    <div class="player player-small" onclick="playerSmall(this, 'http://radio-kpi.podfm.ru/litblog/874/file/podfm_radio-kpi_litblog_22.mp3')">
+                        <div class="player-btn" onclick="playerPause()">
+                            <span class="ricon ricon-play" aria-hidden="true"></span>
+                        </div>
+                        <div class="player-bar" onclick="playerSeekBar(event, this)" onmouseenter="playerSmallMouseFade(true)" onmouseleave="playerSmallMouseFade(false)">
+                            <div class="player-bar-buffer"></div>
+                            <div class="player-bar-current"></div>
+                            <div class="player-bar-text">
+                                <span class="player-song-title">Якубович на Радио КПИ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-player">
+                    <div class="player player-small" onclick="playerSmall(this, 'http://radio-kpi.podfm.ru/ukino/1005/file/podfm_radio-kpi_ukino_20150415.mp3')">
+                        <div class="player-btn" onclick="playerPause()">
+                            <span class="ricon ricon-play" aria-hidden="true"></span>
+                        </div>
+                        <div class="player-bar" onclick="playerSeekBar(event, this)" onmouseenter="playerSmallMouseFade(true)" onmouseleave="playerSmallMouseFade(false)">
+                            <div class="player-bar-buffer"></div>
+                            <div class="player-bar-current"></div>
+                            <div class="player-bar-text">
+                                <span class="player-song-title">У губ твоих конфетных...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-player">
+                    <div class="player player-small" onclick="playerSmall(this, 'https://r-kpi-mchug.c9.io/music/i_will_meet_you.mp3')">
+                        <div class="player-btn" onclick="playerPause()">
+                            <span class="ricon ricon-play" aria-hidden="true"></span>
+                        </div>
+                        <div class="player-bar" onclick="playerSeekBar(event, this)" onmouseenter="playerSmallMouseFade(true)" onmouseleave="playerSmallMouseFade(false)">
+                            <div class="player-bar-buffer"></div>
+                            <div class="player-bar-current"></div>
+                            <div class="player-bar-text">
+                                <span class="player-song-title">Конфетный вкус ^_^</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-player">
+                    <div class="player player-small" onclick="playerSmall(this, 'https://r-kpi-mchug.c9.io/music/i_will_meet_you.mp3')">
+                        <div class="player-btn" onclick="playerPause()">
+                            <span class="ricon ricon-play" aria-hidden="true"></span>
+                        </div>
+                        <div class="player-bar" onclick="playerSeekBar(event, this)" onmouseenter="playerSmallMouseFade(true)" onmouseleave="playerSmallMouseFade(false)">
+                            <div class="player-bar-buffer"></div>
+                            <div class="player-bar-current"></div>
+                            <div class="player-bar-text">
+                                <span class="player-song-title">Реклама сходки ППОС</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="more-tracks">
+                    <span><a href="#">Больше роликов...</a></span>
+                </div>
+                <div id="advertisement"></div>
+            </div>
+        </div>
+        <div id="footer-helper-text">
+            <span>
+                <a href="#">Показать еще 5 записей</a>
+            </span>
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="footer-main">
+        <div id="last">
+            <h4>ПОСЛЕДНЕЕ ИЗ ЭФИРА</h4>
+            <ul>
+                <li>00:04 Roy Ayers - We live in Brooklyn, Baby</li>
+                <li>23:59 LCD Soundsystem – New York.I Love You But You`re</li>
+                <li>23:55 Tower of Power – Squib Cakes</li>
+                <li>23:51 Dumpstaphunk – Turn This Thing Around</li>
+                <li>23:46 Barney Wilen – Blues Walk</li>
+            </ul>
+            <span id="stat"><a href="#">Отрыть полную статистику</a></span>
+        </div>
+        <div id="useful">
+            <h4>ПОЛЕЗНОСТИ</h4>
+            <ul>
+                <li><a href="#">Ответы на частые вопросы</a></li>
+                <li><a href="#">Заказ рекламы событий</a></li>
+                <li><a href="#">Прием песен в ротацию</a></li>
+                <li><a href="#">Напроситься в эфир передачи</a></li>
+            </ul>
+            <div class="input-group">
+                <div class="input">
+                    <input type="text" placeholder="Искать...">
+                </div>
+                <div class="btn">
+                    <a href="#"><span class="ricon ricon-search"></span></a>
+                </div>
+            </div>
+        </div>
+        <div id="who">
+            <h4>КТО МЫ ТАКИЕ</h4>
+            <p>Мы — КПИшники. Мы наполняем мелодиями атмосферу студгородка. Мы создаем настроение Политехнической
+                улици. Мы информуем, учим и развлекаем. Мы звучим гордо!</p>
+            <div id="social">
+                <a href="#" class="ricon ricon-facebook sn"></a>
+                <a href="#" class="ricon ricon-vk sn"></a>
+                <a href="#" class="ricon ricon-twitter sn"></a>
+                <a href="#" class="ricon ricon-youtube sn"></a>
+                <a href="#"><div class="sn" id="counter"></div></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

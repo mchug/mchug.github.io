@@ -1,0 +1,153 @@
+#player {
+    width: 180px;
+    height: 180px;
+    background-color: #ffae00;
+    border: 0;
+    float: left;
+    cursor: pointer;
+}
+
+#navbar-player {
+    width: 60px;
+    height: 60px;
+    background-color: #ffae00;
+    border: 0;
+    float: left;
+    cursor: pointer;
+}
+
+.rhead {
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    float: left;
+}
+
+.rhead-text {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    line-height: normal;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.rhead-player {
+    width: 180px;
+    background-color: #ffae00;
+}
+
+#radioIcon {
+    vertical-align: middle;
+    margin-bottom: 3px;
+    font-size: 85px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#navbar-radioIcon {
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 13px 0 0 8px;
+}
+
+.rhead-player:active,
+.rhead-player:focus {
+    outline: 0;
+}
+
+.sidebar-player {
+    clear: both;
+    margin-top: 30px;
+}
+
+.sidebar-player:first-child {
+    margin-top: 0;
+}
+
+.player {
+    width: 100%;
+    height: 60px;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.player span {
+    line-height: 60px;
+}
+
+.player-btn {
+    width: 60px;
+    height: 100%;
+    background-color: #ffae00;
+    font-size: 28px;
+    float: left;
+    cursor: pointer;
+}
+
+.player-btn-text {
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background-color: #ffae00;
+    text-align: left;
+}
+
+.player-btn-text span {
+    margin-left: 10px;
+}
+
+.player-bar {
+    position: relative;
+    height: 100%;
+    width: -moz-calc(100% - 60px);
+    width: -webkit-calc(100% - 60px);
+    width: calc(100% - 60px);
+    float: left;
+    background-color: #f0f0f0;
+}
+
+.player-large-hidden {
+    width: 180px;
+}
+
+.player-bar-current {
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-color: #ffae00;
+}
+
+.player-bar-buffer {
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-color: #fec853;
+}
+
+.player-bar-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.player-song-title {
+    margin-left: 15px;
+    float: left;
+}
+
+.player-song-time {
+    margin-right: 15px;
+    float: right;
+}

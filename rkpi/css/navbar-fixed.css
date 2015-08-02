@@ -1,0 +1,16 @@
+@import "main.css";
+@import "player.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+    background-color: #f0f0f0;
+}
+
+.ricon-pause:before {
+    margin-left: 4px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffae00">
+    <title>Радио КПИ</title>
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg" />
+    <link rel="stylesheet" href="css/player.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/player.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="player">
+            <div id="player-btn" onclick="radioClick(true)">
+                <span id="radioIcon" class="ricon ricon-play" aria-hidden="true"></span>
+            </div>
+            <div id="player-title"><a href="http://r.kpi.ua">РАДИО КПИ</a><span id="dot">:</span>
+            </div>
+            <div id="player-song" onclick="copyToClipboard()">
+                <span id="songTitle">Загрузка...</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

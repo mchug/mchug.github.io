@@ -1,0 +1,51 @@
+@import 'main.css';
+@import "player.css";
+
+#feed {
+    width: 766px;
+    float: left;
+}
+
+.feed-post:first-child{
+    margin-top: 0;
+}
+
+.feed-post {
+    margin-top: 60px;
+}
+
+.feed-text {
+    width: 766px;
+    margin-top: 30px;
+}
+
+.feed-text > h3 {
+    color: #ffae00;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+.feed-text p {
+    margin-top: 20px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.feed-text a {
+    color: #000;
+}
+
+.feed-text > iframe {
+    margin-top: 20px;
+}
+
+.author {
+    display: inline-block;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.read-more {
+    font-weight: bold;
+}

@@ -1,0 +1,517 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans.eot');
+    src: url('../fonts/Open_Sans.eot?#iefix') format('embedded-opentype'), url('../fonts/Open_Sans.woff2') format('woff2'), url('../fonts/Open_Sans.woff') format('woff'), url('../fonts/Open_Sans.ttf') format('truetype'), url('../fonts/Open_Sans.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans_Bold.eot');
+    src: url('../fonts/Open_Sans_Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Open_Sans_Bold.woff2') format('woff2'), url('../fonts/Open_Sans_Bold.woff') format('woff'), url('../fonts/Open_Sans_Bold.ttf') format('truetype'), url('../fonts/Open_Sans_Bold.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans_Bold_Italic.eot');
+    src: url('../fonts/Open_Sans_Bold_Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Open_Sans_Bold_Italic.woff2') format('woff2'), url('../fonts/Open_Sans_Bold_Italic.woff') format('woff'), url('../fonts/Open_Sans_Bold_Italic.ttf') format('truetype'), url('../fonts/Open_Sans_Bold_Italic.svg#open_sansbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans_Italic.eot');
+    src: url('../fonts/Open_Sans_Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Open_Sans_Italic.woff2') format('woff2'), url('../fonts/Open_Sans_Italic.woff') format('woff'), url('../fonts/Open_Sans_Italic.ttf') format('truetype'), url('../fonts/Open_Sans_Italic.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Radio KPI icons';
+    src: url('../fonts/ricon.eot');
+    src: url('../fonts/ricon.eot?#iefix') format('embedded-opentype'), url('../fonts/ricon.woff') format('woff'), url('../fonts/ricon.ttf') format('truetype'), url('../fonts/ricon.svg#radio-kpi-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+body > #wrap {
+    height: auto;
+    min-height: 100%;
+}
+
+#main {
+    padding: 0 15px;
+    width: 1126px;
+    margin: 60px auto -305px auto;
+}
+
+#header {
+    height: 180px;
+}
+
+#header > div {
+    float: left;
+    margin: 65px 0 0 25px;
+    width: 617px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#header > div > span {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#navbar-fixed {
+    height: 60px;
+    width: 1026px;
+    background-color: #fff;
+    position: fixed;
+    margin: 60px 0 0 -513px;
+    left: 50%;
+}
+
+#navbar-fixed > div {
+    float: left;
+    margin: 20px 0 0 30px;
+    width: 617px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#navbar-fixed > div > span {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ricon {
+    display: inline-block;
+    font-family: 'Radio KPI icons', serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ricon-play:before {
+    margin-left: 6px;
+    content: '\0041';
+}
+
+.ricon-pause:before {
+    content: '\0042';
+}
+
+h1 {
+    font-weight: bold;
+    float: left;
+    margin: 65px 0 0 55px;
+    font-size: 36px;
+    height: 50px;
+    display: table;
+    width: 240px;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: #000;
+    display: table-cell;
+    text-align: center;
+}
+
+h1 > a:hover {
+    border-bottom: 5px solid #000000;
+}
+
+nav {
+    height: 120px;
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+}
+
+#menu {
+    display: table-cell;
+    vertical-align: middle;
+    list-style-type: none;
+    height: 20px;
+    padding: 0;
+}
+
+#menu > li {
+    height: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+    width: inherit;
+    padding: 0 24px 3px 24px;
+    cursor: pointer;
+}
+
+#menu > li > a {
+    color: #000;
+    text-decoration: none;
+}
+
+#menu > li:hover {
+    border-bottom: 3px solid #000;
+    padding-bottom: 0;
+}
+
+#menu li a:hover {
+    text-decoration: none;
+}
+
+#content {
+    width: 1126px;
+    height: auto;
+}
+
+.ricon-comment:before {
+    content: '\0047';
+}
+
+#recordings {
+    float: right;
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+
+#programs {
+    float: right;
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+
+#recordings a {
+    color: #000;
+    text-decoration: none;
+}
+
+#recordings a:hover {
+    text-decoration: underline;
+}
+
+.sn-buttons {
+    margin-top: 20px;
+}
+
+.sn-buttons div:nth-child(2){
+    margin-left: 0;
+}
+
+.sn-buttons div {
+    float: left;
+    margin-left: 40px;
+}
+
+.twitter-share-button {
+    margin-right: 40px;
+}
+
+#more-tracks {
+    display: table;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#more-tracks span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#advertisement {
+    width: 296px;
+    height: 250px;
+    float: left;
+    border: 2px solid #ffae00;
+}
+
+#footer-helper-text {
+    width: 100%;
+    height: 120px;
+    float: left;
+    text-align: center;
+    display: table;
+    font-weight: bold;
+}
+
+#footer-helper-text span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#footer-helper-text a {
+    color: #000;
+    text-decoration: none;
+}
+
+#footer-helper-text a:hover {
+    text-decoration: underline;
+}
+
+#footer-helper-empty {
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    min-width: 1156px;
+    height: 305px;
+    background-color: #aaa;
+    position: relative;
+    margin-top: -305px;
+    clear: both;
+}
+
+footer > div > div {
+    height: 180px;
+}
+
+#footer-main {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1125px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+#last {
+    float: left;
+    width: 420px;
+    position: relative;
+}
+
+footer h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+}
+
+footer h4:first-line {
+    line-height: 1;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+footer p {
+    padding-top: 10px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+footer li {
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+}
+
+#stat {
+    float: left;
+    position: absolute;
+    bottom: 0;
+    width: 420px;
+    font-size: 14px;
+}
+
+footer span {
+    display: inline-block;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#footer-main a {
+    color: #000;
+    -webkit-transition:color .2s;
+    transition: color .2s;
+}
+
+#footer-main a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+#useful {
+    float: left;
+    width: 240px;
+    margin-left: 60px;
+    position: relative;
+}
+
+#useful .input-group {
+    height: 30px;
+    width: 240px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    -webkit-transition:background .2s;
+    transition:background .2s;
+}
+
+#useful .input {
+    float: left;
+    height: 100%;
+    width: 210px;
+}
+
+#useful input {
+    width: 200px;
+    height: 30px;
+    border-radius: 0;
+    border: none;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: #a9a9a9;
+}
+
+:-moz-placeholder {
+    color: #a9a9a9;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #a9a9a9;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #a9a9a9;
+}
+
+#useful input:hover,
+#useful input:focus {
+    outline: 0;
+}
+
+#useful .btn {
+    color: #a9a9a9;
+    float: left;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#useful .btn a {
+    font-size: 20px;
+    width: 20px;
+    line-height: 0;
+    position: absolute;
+    color: #a9a9a9;
+    top: 5px;
+    right: 5px;
+}
+
+#useful .btn a:hover {
+    color: #9a9a9a;
+}
+
+#who {
+    float: left;
+    width: 345px;
+    margin-left: 60px;
+    position: relative;
+}
+
+#social {
+    position: absolute;
+    bottom: 0;
+    width: 345px;
+    font-size: 30px;
+}
+
+#social a:hover {
+    text-decoration: none;
+}
+
+#social > a:first-child{
+    margin-left: 0;
+}
+
+.sn {
+    float: left;
+    margin-left: 32px;
+    text-decoration: none;
+}
+
+.ricon-facebook:before {
+    margin-left: -5px;
+    content: '\0043';
+}
+
+.ricon-vk:before {
+    content: '\0046';
+}
+
+.ricon-vk {
+    margin-left: 26px;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.ricon-twitter:before {
+    content: '\0045';
+}
+
+.ricon-youtube:before {
+    content: '\0044';
+}
+
+#counter {
+    background: #aaa url("../img/counter.png") no-repeat center center;
+    width: 88px;
+    height: 31px;
+    float: right;
+}
+
+.ricon-search:before {
+    content: '\0048';
+}

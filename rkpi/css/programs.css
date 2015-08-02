@@ -1,0 +1,79 @@
+@import "main.css";
+@import "player.css";
+
+#programs {
+    width: 766px;
+    float: left;
+}
+
+.program {
+    width: 766px;
+    margin-bottom: 60px;
+    float: left;
+    height: 240px;
+    position: relative;
+}
+
+.program:last-child {
+    margin-bottom: 0;
+}
+
+.program a {
+    text-decoration: none;
+    color: #ffae00;
+}
+
+.program a:hover {
+    text-decoration: underline;
+}
+
+.program-image {
+    float: left;
+    width: 238px;
+    height: 240px;
+}
+
+.program-text {
+    width: 466px;
+    margin-left: 60px;
+    float: right;
+}
+
+.program-text > h3:first-line {
+    line-height: 1;
+}
+
+.program-text > h3 {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.program-text > p {
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.program-info {
+    line-height: 26px;
+    position: absolute;
+    bottom: 0;
+}
+
+.program-info span {
+    float: left;
+    clear: both;
+    font-size: 14px;
+}
+
+.program-info a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.program-info span:last-child {
+    line-height: 1;
+    margin-top: 6px;
+}

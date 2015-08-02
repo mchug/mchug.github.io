@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Радио КПИ</title>
+    <link rel="stylesheet" href="../css/navbar-fixed.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/player.js"></script>
+    <script src="../js/navbar-fixed.js"></script>
+</head>
+<body>
+    <div id="navbar-fixed">
+        <button id="navbar-player" class="rhead rhead-player" onclick="radioClick(true)">
+            <span id="navbar-radioIcon" class="ricon ricon-play" aria-hidden="true"></span>
+        </button>
+        <div onclick="copyToClipboard()">
+            <span class="songTitle"></span>
+        </div>
+    </div>
+</body>
+</html>

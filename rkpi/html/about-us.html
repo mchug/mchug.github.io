@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Радио КПИ</title>
+    <link rel="stylesheet" href="../css/about-us.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/player.js"></script>
+    <script src="../js/about-us.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div id="main">
+        <div id="header">
+            <button id="player" class="rhead rhead-player" onclick="radioClick(true)">
+                <span id="radioIcon" class="ricon ricon-play" aria-hidden="true"></span>
+            </button>
+            <h1><a href="../index.html">РАДИО КПИ</a>: </h1>
+            <div onclick="copyToClipboard()">
+                <span id="songTitle"></span>
+            </div>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="post.html">ПУБЛИКАЦИИ</a></li>
+                <li><a href="programs.html">ПРОГРАММЫ</a></li>
+                <li><a href="feed.html">РЕПОРТАЖИ</a></li>
+                <li><a href="chat.html">НАПИСАТЬ В ЭФИР</a></li>
+                <li><a href="employee.html">СТАТЬ ЧАСТЬЮ РАДИО</a></li>
+                <li><a href="#">О НАС</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <div id="about-us">
+                <img src="../img/logo.jpg">
+                <div id="radio">
+                    <p><span>Радіо КПІ</span> — студентська радіостанція Національного Технічного
+                        Університету України «Київський Політехнічний Інститут». Розпочала роботу в 2009 році, хоча згадки про радіовузол можна знайти ще
+                        у перших номерах газети Київський політехнік за 1927 рік. Радіостанція була створена як система
+                        гучномовців з метою швидкого інформування студентів та працівників ВНЗ. В даний час трансляція....</p>
+                </div>
+                <div id="info">
+                    <div id="history">
+                        <h3>Історія</h3>
+                        <p>Ініціатором відродження системи гучномовців на території університету став Департамент
+                            навчально-виховної роботи. Перший ефір відбувся 31 серпня 2009 року. Це була трансляція свята
+                            Дня першокурсника, що відбувалося на Площі знань, на Політехнічну вулицю. Керівником проекту
+                            став Геннадій Новіков, першим звукорежисером став студент ТЕФ Олексій Голік, а першим «голосом»
+                            стала студентка ФСП Юлія Карпюк. В перші місяці існування на Радіо КПІ в прямому ефірі звучали
+                            оголошення, а також вмикалася музика у вільний від навчання час. Виникла необхідність зворотного
+                            зв'язку з аудиторією.</p>
+                    </div>
+                    <div id="collective">
+                        <h3>Колектив</h3>
+                        <p>В команду Радіо КПІ входять переважно студенти, також є аспіранти, викладачі та інші
+                            співробітники КПІ. Також до нас приходять студенти з інших університетів, в яких немає
+                            технічної можливості реалізувати свої ідеї й проекти. У нас є не тільки ведучі, яких ви
+                            чуєте в ефірі. Це і звукорежисери, редактори, фотографи, відеооператори, дизайнери,
+                            веб-майстри... І ось про кожного з них далі.</p>
+                    </div>
+                </div>
+                <div id="employees">
+                    <div class="employee">
+                        <a href="#"><img src="../img/employee.jpg"></a>
+                        <div class="employee-info">
+                            <h3><a href="#" class="employee-name">Людмила Савенко</a> — головний редактор.</h3>
+                            <p>Ото, буває, музика або лунає, або гупає... І першу, і другу для вас підбирає саме Денчік.
+                                Якщо морозного грудневого ранку ти чуєш з гучномовців звуки моря і чайок, то знай, що
+                                йому було нудно ввечері. Якщо ж на перерві грає та сама музика, що і вчора, то Денчик
+                                прийшов п’яним і забув змінити, або зник інтернет. Хочеш поставити свою музику в ефір
+                                — звертайся до нього.</p>
+                        </div>
+                    </div>
+                    <div class="employee">
+                        <a href="#"><img src="../img/employee.jpg"></a>
+                        <div class="employee-info">
+                            <h3><a href="#" class="employee-name">Людмила Савенко</a> — головний редактор.</h3>
+                            <p>Ото, буває, музика або лунає, або гупає... І першу, і другу для вас підбирає саме Денчік.
+                                Якщо морозного грудневого ранку ти чуєш з гучномовців звуки моря і чайок, то знай, що
+                                йому було нудно ввечері. Якщо ж на перерві грає та сама музика, що і вчора, то Денчик
+                                прийшов п’яним і забув змінити, або зник інтернет. Хочеш поставити свою музику в ефір
+                                — звертайся до нього.</p>
+                        </div>
+                    </div>
+                    <div class="employee">
+                        <a href="#"><img src="../img/employee.jpg"></a>
+                        <div class="employee-info">
+                            <h3><a href="#" class="employee-name">Людмила Савенко</a> — головний редактор.</h3>
+                            <p>Ото, буває, музика або лунає, або гупає... І першу, і другу для вас підбирає саме Денчік.
+                                Якщо морозного грудневого ранку ти чуєш з гучномовців звуки моря і чайок, то знай, що
+                                йому було нудно ввечері. Якщо ж на перерві грає та сама музика, що і вчора, то Денчик
+                                прийшов п’яним і забув змінити, або зник інтернет. Хочеш поставити свою музику в ефір
+                                — звертайся до нього.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="more">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.5750796214343!2d30.458389999999984!3d50.44901499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce9d5660e369%3A0xec38093240d95d44!2z0KDQsNC00LjQviDQmtCf0Jg!5e0!3m2!1sru!2sua!4v1431195624516" width="300" height="300" frameborder="0" style="border:0"></iframe>
+                <div class="more-info">
+                    <h4>Контактная информация</h4>
+                    <span>radio@kpi.ua</span>
+                    <span>+380 44 406 81 30</span>
+                    <span>г. Киев, пр. Победы 37К7</span>
+                </div>
+                <div class="more-info">
+                    <h4>Как пройти в студию</h4>
+                    <p>Чёрный вход в ЦКМ КПИ со стороны паровоза, пройти через вахту по коридору за стрелочками,
+                        на ступеньках подняться на 3 этаж, открыть дверь Радио КПИ.</p>
+                </div>
+                <div class="more-info">
+                    <h4>Мы в Интернете</h4>
+                    <ul>
+                        <li><a href="#">Паблик Вконтакте</a></li>
+                        <li><a href="#">Фан-страница Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Канал YouTube</a></li>
+                        <li><a href="#">Група Вконтакте</a></li>
+                        <li><a href="#">Google+</a></li>
+                        <li><a href="#">Last.fm</a></li>
+                        <li><a href="#">PodFm</a></li>
+                        <li><a href="#">SoundCloud</a></li>
+                        <li><a href="#">Wikipedia</a></li>
+                        <li><a href="#">Android-плеер</a></li>
+                    </ul>
+                </div>
+                <div id="advertisement"></div>
+            </div>
+        </div>
+        <div id="footer-helper-text">
+            <span>
+                <a href="#">Показать всех...</a>
+            </span>
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="footer-main">
+        <div id="last">
+            <h4>ПОСЛЕДНЕЕ ИЗ ЭФИРА</h4>
+            <ul>
+                <li>00:04 Roy Ayers - We live in Brooklyn, Baby</li>
+                <li>23:59 LCD Soundsystem – New York.I Love You But You`re</li>
+                <li>23:55 Tower of Power – Squib Cakes</li>
+                <li>23:51 Dumpstaphunk – Turn This Thing Around</li>
+                <li>23:46 Barney Wilen – Blues Walk</li>
+            </ul>
+            <span id="stat"><a href="#">Отрыть полную статистику</a></span>
+        </div>
+        <div id="useful">
+            <h4>ПОЛЕЗНОСТИ</h4>
+            <ul>
+                <li><a href="#">Ответы на частые вопросы</a></li>
+                <li><a href="#">Заказ рекламы событий</a></li>
+                <li><a href="#">Прием песен в ротацию</a></li>
+                <li><a href="#">Напроситься в эфир передачи</a></li>
+            </ul>
+            <div class="input-group">
+                <div class="input">
+                    <input type="text" placeholder="Искать...">
+                </div>
+                <div class="btn">
+                    <a href="#"><span class="ricon ricon-search"></span></a>
+                </div>
+            </div>
+        </div>
+        <div id="who">
+            <h4>КТО МЫ ТАКИЕ</h4>
+            <p>Мы — КПИшники. Мы наполняем мелодиями атмосферу студгородка. Мы создаем настроение Политехнической
+                улици. Мы информуем, учим и развлекаем. Мы звучим гордо!</p>
+            <div id="social">
+                <a href="#" class="ricon ricon-facebook sn"></a>
+                <a href="#" class="ricon ricon-vk sn"></a>
+                <a href="#" class="ricon ricon-twitter sn"></a>
+                <a href="#" class="ricon ricon-youtube sn"></a>
+                <a href="#"><div class="sn" id="counter"></div></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

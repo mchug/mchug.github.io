@@ -1,0 +1,61 @@
+@import "main.css";
+@import "player.css";
+
+#recordings {
+    width: 766px;
+    float: left;
+}
+
+.program-info {
+    margin-top: 30px;
+    height: 120px;
+    line-height: 26px;
+}
+
+.program-info > a > img {
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+
+.program-info > h4 {
+    float: right;
+    text-align: left;
+    line-height: 1;
+    padding: 0 0 10px 30px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.program-info > div {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
+.program-info > div > span {
+    display: block;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.program-info > div > span:first-child {
+    margin-bottom: 5px;
+}
+
+.program-info a {
+    text-decoration: underline;
+    color: #000;
+}
+
+#advertisement {
+    margin-top: 60px;
+}
+
+#footer-helper-text {
+    text-align: left;
+    margin-left: 75px;
+}
