@@ -17,8 +17,9 @@ function radioClick(stopAudio) {
 }
 
 function getSongTitle() {
-    $.get("/player/php/getSong.php", function (msg) {
-        $("#songTitle").text(msg);
+    // Новый сервак иначе отдаёт метаданные @Юра
+    $.getJSON("http://77.47.130.190:7000/getmeta", function (data) {
+        $("#songTitle").text(data.song);
     });
 }
 
