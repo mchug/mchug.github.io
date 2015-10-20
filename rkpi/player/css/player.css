@@ -59,7 +59,7 @@
     padding: 0;
 }
 body {
-    background: url(../images/back1.jpg) no-repeat center top fixed;
+    /*background: url(../images/back1.jpg) no-repeat center top fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,9 +69,31 @@ body {
     height: 100%;
     height: 100vh;
 }
+
+/* BG VIDEO @Юра */
+#videoBg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#videoBg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #container {
     margin: 0 auto;
     width: 1170px;
+    height: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 #player {
     color: #000;
@@ -84,6 +106,7 @@ body {
     margin-top: -90px;
     height: 180px;
     line-height: 180px;
+    z-index: 10;
 }
 #player div {
     float: left;
