@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title>trans.js</title>
+    <link rel="icon" type="image/png" href="img/fire.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/trans.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <img id="logo" src="img/fire.png" alt="fire" />
+                <h1>trans.js</h1>
+            </div>
+            <div class="col-xs-12">
+                <h4>Input (source)<span class="pull-right">
+                    <span class="btn btn-xs btn-default" id="btn-toggle-settings"><span class="glyphicon glyphicon-eye-close"></span> Show/Hide Settings</span>
+                    <span class="btn btn-xs btn-danger" onclick="trans.translate()"><span class="glyphicon glyphicon-fire"></span> Translate</span>
+                    </span></h4>
+                <div class="form-group">
+                    <textarea class="form-control persist" id="input"></textarea>
+                </div>
+            </div>
+            <div class="settings col-xs-12" style="display:none">
+                <div class="row">
+                    <div class="col-xs-7">
+                        <h4>Syntax rules <span class="pull-right">
+                             <span id="help-syntax-rules" class="btn btn-xs btn-warning"><span class="glyphicon glyphicon-question-sign"></span> Help</span>
+                            </span>
+                        </h4>
+                        <div class="form-group">
+                            <textarea class="form-control persist" id="syntax-rules"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-xs-5">
+                        <h4>Settings <span class="pull-right">
+                             <span id="help-syntax-settings" class="btn btn-xs btn-warning"><span class="glyphicon glyphicon-question-sign"></span> Help</span>
+                            </span>
+                        </h4>
+                        <div id="syntax-settings">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon">Keywords</div>
+                                    <input type="text" class="form-control persist" placeholder="200 PROGRAM BEGIN END etc..." id="keywords">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon">Delimiters</div>
+                                    <input type="text" class="form-control persist" placeholder="100 + - . / \ : ; = etc..." id="delimiters">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon">Identifiers</div>
+                                    <input type="text" class="form-control persist" placeholder="400" id="identifiers">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon">Constants</div>
+                                    <input type="text" class="form-control persist" placeholder="600" id="consts">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon">Primitives</div>
+                                    <input type="text" class="form-control persist" placeholder="<identifier>=Identifiers <digits-string>=Constants" id="primitives">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon">Whitespaces</div>
+                                    <input type="text" class="form-control persist" placeholder="\s \t \n" id="whitespaces">
+                                </div>
+                            </div>
+                            <!--<div class="form-group">-->
+                            <!--    <div class="input-group">-->
+                            <!--        <div class="input-group-addon">Comments</div>-->
+                            <!--        <input type="text" class="form-control persist" placeholder="open=(* close=*) oneline=//" id="comments">-->
+                            <!--    </div>-->
+                            <!--</div>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="settings col-xs-12" style="display:none">
+                <div class="row">
+                    <div class="col-xs-7">
+                        <h4>Translation rules <span class="pull-right">
+                             <span id="help-trans-rules" class="btn btn-xs btn-warning"><span class="glyphicon glyphicon-question-sign"></span> Help</span>
+                            </span>
+                        </h4>
+                        <div class="form-group">
+                            <textarea class="form-control persist" id="trans-rules"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-xs-5">
+                        <h4>Settings <span class="pull-right">
+                             <span id="help-trans-settings" class="btn btn-xs btn-warning"><span class="glyphicon glyphicon-question-sign"></span> Help</span>
+                            </span>
+                        </h4>
+                        <div id="trans-settings">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon">Must be unique</div>
+                                    <input type="text" class="form-control persist" placeholder="<constant-identifier> <procedure-identifier>" id="unique">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon">Must exists</div>
+                                    <input type="text" class="form-control persist" placeholder="<variable-identifier>" id="exists">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <h4>Log<span class="pull-right">
+                    <span id="saveToFile" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-save-file"></span> Save to file</span>
+                    </span></h4>
+                <pre id="out">Press translate...</pre>
+            </div>
+        </div>
+        <footer class="text-center">
+            made by <a href="http://mchug.github.io">Maxim Chugaevsky</a>
+        </footer>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/trans.js"></script>
+
+</body>
+
+</html>
