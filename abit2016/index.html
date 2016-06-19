@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Cache-Control" content="public" />
+	<meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>#КПІгугл</title>
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/abit.css" rel="stylesheet" />
+	<link href="css/edpol.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="go-up" onclick="ga('send', 'event', 'Основные метрики', 'Кнопка вверх', 'Нажали кнопку');window.scrollTo(0,0);" hidden>
+		<span class="glyphicon glyphicon-arrow-up"></span>
+	</div>
+	<div class="container">
+
+		<div class="header">
+			<h1><a id="homeLink" href="/abit2015">База супергероїв</a> <a onclick="ga('send', 'event', 'Основные метрики', 'Заголовок', 'Нажатие на хештег');" 
+			class="text-success" href="https://vk.com/feed?q=%23%D0%9A%D0%9F%D0%98%20%23%D0%9A%D0%9F%D0%86&section=search" target="_blank">#КПІ</a></h1>
+			<div id="about"></div>
+		</div>
+		<div class="search">
+			<div class="input-group">
+				<input id="search-text" type="text" class="form-control" placeholder="Введи ключові слова для пошуку, або слово &quot;гайд&quot; для довідки" oninput="ga('send', 'event', 'Основные метрики', 'Поле поиска', 'live-поиск');delayedSearch(300)" onchange="ga('send', 'event', 'Основные метрики', 'Поле поиска', 'Поиск по Enter');search(this.value)">
+				<span class="input-group-btn">
+					<button class="btn btn-success" type="button" onclick="ga('send', 'event', 'Основные метрики', 'Поле поиска', 'Поиск по кнопке');delayedSearch(100)">Знайти!</button>
+				</span>
+			</div>
+		</div>
+		<div class="mainTable">
+
+		</div>
+	</div>
+	</div>
+	<div id="createdBy" class="text-center">
+		Created by <a href="http://vk.com/m.chug">Maxim Chugaevsky</a>
+		<p>Special thanks to <a href="http://vk.com/aloshkinoleh">Oleg</a>, <a href="http://vk.com/nikitagritsenko">Nikita</a> and <a href="http://vk.com/annvaskovska">Ann</a>
+		</p>
+		<!--<div id="edpol"><a href="http://edpol.org/">Hosted by <span class="icon icon-edpol"></span> Единая Поляна</a>-->
+	</div>
+	</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script>
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-62777491-3', 'auto');
+	ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+	$(function() {
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+			var ww = ($(window).width() < window.screen.width) ? $(window).width() : window.screen.width; //get proper width
+			var mw = 960; // min width of site
+			var ratio = ww / mw; //calculate ratio
+			if (ww < mw) { //smaller than minimum size
+				$('#Viewport').attr('content', 'initial-scale=' + ratio + ', maximum-scale=' + ratio + ', minimum-scale=' + ratio + ', user-scalable=yes, width=' + ww);
+			}
+			else { //regular size
+				$('#Viewport').attr('content', 'initial-scale=1.0, maximum-scale=2, minimum-scale=1.0, user-scalable=yes, width=' + ww);
+			}
+		}
+	});
+</script>
+
+</html>

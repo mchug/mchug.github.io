@@ -1,0 +1,552 @@
+<div class="help">
+    <h3>Довідка</h3>
+    <h4>1. Як працює пошук?</h4>
+    <p>Все дуже просто. Кожного разу коли ти набираєш щось у <span class="text-success">рядку пошуку</span>, сайт шукає усі можливі співпадіння з таблицею та видає тобі результат! Нижче можна побачити демонстрацію.</p>
+    <div class="row">
+        <div class="col-xs-6">
+            <h4 class="text-center">було</h4>
+            <div class="search">
+                <div class="input-group">
+                    <input id="search-text" type="text" class="form-control" placeholder="Введи ключові слова для пошуку..." onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Попытались изменить текст (1 было)')" readonly>
+                    <span class="input-group-btn">
+									<button class="btn btn-success" type="button" onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Нажали на кнопку (1 было)')">Знайти!</button>
+								</span>
+                </div>
+            </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Стовпчик 1</th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Я хочу</td>
+                        <td>в</td>
+                        <td>КПІ</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Піу?</td>
+                        <td>Піу?</td>
+                        <td>ПІУ, ПІУ!</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>КПІ</td>
+                        <td>ONE</td>
+                        <td>LOVE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-xs-6">
+            <h4 class="text-center">стало</h4>
+            <div class="search">
+                <div class="input-group">
+                    <input id="search-text" type="text" class="form-control" placeholder="" value="кпі" onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Попытались изменить текст (1 стало)')" readonly>
+                    <span class="input-group-btn">
+									<button class="btn btn-success" type="button" onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Нажали на кнопку (1 стало)')">Знайти!</button>
+								</span>
+                </div>
+            </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Стовпчик 1</th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Я хочу</td>
+                        <td>в</td>
+                        <td>КПІ</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>КПІ</td>
+                        <td>ONE</td>
+                        <td>LOVE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--end row-->
+    </br>
+    <h4>2. Інформація про факультет</h4>
+    <p>Якщо натиснути на рядок табличі, то знизу з'явиться додаткова інформація про факультет: повна назва факультету, назви кафедр та прохідні бали ЗНО на бюджет по кожному з напрямів.</p>
+    <p>Бали подані у відносному форматі для того, щоб їх було простіше порівнювати.</p>
+    <h4 class="text-center">було</h4>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th id="col-num">#<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-way">Напрям<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-faculty">Факультет<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-name">Ім'я<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-course">Курс<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-hostel">Гуртожиток<span class="glyphicon glyphicon-sort"></span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="clicked">
+                <td class="num">129</td>
+                <td class="way">Комп'ютерні науки</td>
+                <td class="faculty">ІПСА<span class="glyphicon glyphicon-info-sign"></span>
+                </td>
+                <td class="name"><a href="http://vk.com/define_rak" target="_blank">Александр</a>
+                </td>
+                <td class="course">Молодший курс</td>
+                <td class="hostel"><span class="glyphicon glyphicon-check"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h4 class="text-center">стало</h4>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th id="col-num">#<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-way">Напрям<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-faculty">Факультет<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-name">Ім'я<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-course">Курс<span class="glyphicon glyphicon-sort"></span>
+                </th>
+                <th id="col-hostel">Гуртожиток<span class="glyphicon glyphicon-sort"></span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="clicked">
+                <td class="num">129</td>
+                <td class="way">Комп'ютерні науки</td>
+                <td class="faculty">ІПСА<span class="glyphicon glyphicon-info-sign"></span>
+                </td>
+                <td class="name"><a href="http://vk.com/define_rak" target="_blank">Александр</a>
+                </td>
+                <td class="course">Молодший курс</td>
+                <td class="hostel"><span class="glyphicon glyphicon-check"></span>
+                </td>
+            </tr>
+            <tr class="moreInfo">
+                <td colspan="7">
+                    <div class="row">
+                        <div class="col-xs-6 faculty">
+                            <h1>ІПСА</h1>
+                            <h4>Інститут Прикладного Системного Аналізу</h4>
+                        </div>
+                        <div class="col-xs-6 departments">
+                            <div class="row block-title"><b>Кафедри</b>
+                            </div>
+                            <p><b>ММСА</b> Математичних Методів Системного Аналізу</p>
+                            <p><b>СП (САПР)</b> Системного Проектування</p>
+                        </div>
+                    </div>
+                    <div class="row block-title"><b>Напрями</b><a href="?search=про бали зно" class="why-scores">Чому бали у відсотках?</a>
+                    </div>
+                    <div class="row ways">
+                        <div class="col-xs-4 way">
+                            <div class="row text-center name"><b>6.050101</b> Комп'ютерні Науки</div>
+                            <div class="row scores"><span class="progress-label-r">84%</span><span class="progress-label-l">2014</span>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar" style="width: 84%"></div>
+                                </div><span class="progress-label-r">90%</span><span class="progress-label-l">2013</span>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+                                </div><span class="progress-label-r">86%</span><span class="progress-label-l">2012</span>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-warning" style="width: 86%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 way">
+                            <div class="row text-center name"><b>6.040303</b> Системний Аналіз</div>
+                            <div class="row scores"><span class="progress-label-r">88%</span><span class="progress-label-l">2014</span>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar" style="width: 88%"></div>
+                                </div><span class="progress-label-r">88%</span><span class="progress-label-l">2013</span>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-success" style="width: 88%"></div>
+                                </div><span class="progress-label-r">88%</span><span class="progress-label-l">2012</span>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-warning" style="width: 88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </br>
+    <h4>3. Групування за принципом І</h4>
+    <p>Усі ключові слова, розділені <span class="text-primary">пробілами</span>, <span class="text-warning">обов'язково будуть присутні</span> в результаті.</p>
+    <div class="row">
+        <div class="col-xs-6">
+            <h4 class="text-center">було</h4>
+            <div class="search">
+                <div class="input-group">
+                    <input id="search-text" type="text" class="form-control" placeholder="Введи ключові слова для пошуку..." readonly>
+                    <span class="input-group-btn">
+									<button class="btn btn-success" type="button">Знайти!</button>
+								</span>
+                </div>
+            </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Стовпчик 1</th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Я хочу</td>
+                        <td>в</td>
+                        <td>КПІ</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Піу?</td>
+                        <td>Піу?</td>
+                        <td>ПІУ, ПІУ!</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>КПІ</td>
+                        <td>ONE</td>
+                        <td>LOVE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-xs-6">
+            <h4 class="text-center">стало</h4>
+            <div class="search">
+                <div class="input-group">
+                    <input id="search-text" type="text" class="form-control" placeholder="" value="love кпі" readonly>
+                    <span class="input-group-btn">
+									<button class="btn btn-success" type="button">Знайти!</button>
+								</span>
+                </div>
+            </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Стовпчик 1</th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3</td>
+                        <td>КПІ</td>
+                        <td>ONE</td>
+                        <td>LOVE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--end row-->
+    </br>
+    <h4>4. Групування за принципом АБО</h4>
+    <p><span class="text-warning">Хоча б одне</span> з ключових слів, розділених <span class="text-primary">комами</span>, обов'язково буде присутнє в результаті.</p>
+    <div class="row">
+        <div class="col-xs-6">
+            <h4 class="text-center">було</h4>
+            <div class="search">
+                <div class="input-group">
+                    <input id="search-text" type="text" class="form-control" placeholder="Введи ключові слова для пошуку..." readonly>
+                    <span class="input-group-btn">
+									<button class="btn btn-success" type="button">Знайти!</button>
+								</span>
+                </div>
+            </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Стовпчик 1</th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Я хочу</td>
+                        <td>в</td>
+                        <td>КПІ</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Піу?</td>
+                        <td>Піу?</td>
+                        <td>ПІУ, ПІУ!</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>КПІ</td>
+                        <td>ONE</td>
+                        <td>LOVE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-xs-6">
+            <h4 class="text-center">стало</h4>
+            <div class="search">
+                <div class="input-group">
+                    <input id="search-text" type="text" class="form-control" placeholder="" value="love , кпі" readonly>
+                    <span class="input-group-btn">
+									<button class="btn btn-success" type="button">Знайти!</button>
+								</span>
+                </div>
+            </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Стовпчик 1</th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Я хочу</td>
+                        <td>в</td>
+                        <td>КПІ</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>КПІ</td>
+                        <td>ONE</td>
+                        <td>LOVE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--end row-->
+    </br>
+    <h4>5. Групування за принципом І та АБО</h4>
+    <p>Групи слів розділених пробілами можна об'єднувати за допомогую ком.</p>
+    <div class="row">
+        <div class="col-xs-6">
+            <h4 class="text-center">було</h4>
+            <div class="search">
+                <div class="input-group">
+                    <input id="search-text" type="text" class="form-control" placeholder="Введи ключові слова для пошуку..." readonly>
+                    <span class="input-group-btn">
+									<button class="btn btn-success" type="button">Знайти!</button>
+								</span>
+                </div>
+            </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Стовпчик 1</th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Я хочу</td>
+                        <td>в</td>
+                        <td>КПІ</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Піу?</td>
+                        <td>Піу?</td>
+                        <td>ПІУ, ПІУ!</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>КПІ</td>
+                        <td>ONE</td>
+                        <td>LOVE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Стрічка</td>
+                        <td>про</td>
+                        <td>щось</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Хоть знає</td>
+                        <td>що таке</td>
+                        <td>"піу"?</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Оуу і я</td>
+                        <td>теж хочу</td>
+                        <td>в КПІ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-xs-6">
+            <h4 class="text-center">стало</h4>
+            <div class="search">
+                <div class="input-group">
+                    <input id="search-text" type="text" class="form-control" placeholder="" value="хочу кпі , піу" readonly>
+                    <span class="input-group-btn">
+									<button class="btn btn-success" type="button">Знайти!</button>
+								</span>
+                </div>
+            </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Стовпчик 1</th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Я хочу</td>
+                        <td>в</td>
+                        <td>КПІ</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Піу?</td>
+                        <td>Піу?</td>
+                        <td>ПІУ, ПІУ!</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Хоть знає</td>
+                        <td>що таке</td>
+                        <td>"піу"?</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Оуу і я</td>
+                        <td>теж хочу</td>
+                        <td>в КПІ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--end row-->
+    </br>
+    <h4>6. Сортування</h4>
+    <p>Якщо тобі хочеться відсортувати результати за якоюсь із колонок, просто натисни на ії заголовок.</p>
+    <div class="row">
+        <div class="col-xs-6">
+            <h4 class="text-center">було</h4>
+            <table class="table table-hover">
+                <thead onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Попробовали отсортировать (таблица 1)');alert('Демонстрація не сортується ;)\nСпробуйте на справжніх даних.')">
+                    <tr>
+                        <th>#</th>
+                        <th>Стовпчик 1</th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Бурса</td>
+                        <td>Піу?</td>
+                        <td>ПІУ, ПІУ!</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Aвтомобіль</td>
+                        <td>в</td>
+                        <td>КПІ</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ааай! Хочу в КПІ!</td>
+                        <td>ONE</td>
+                        <td>LOVE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-xs-6">
+            <h4 class="text-center">стало</h4>
+            <table class="table table-hover">
+                <thead onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Попробовали отсортировать (таблица 2)');alert('Демонстрація не сортується ;)\nСпробуйте на справжніх даних.')">
+                    <tr>
+                        <th>#</th>
+                        <th class="demo-sort">Стовпчик 1<span class="glyphicon glyphicon-sort"></span>
+                        </th>
+                        <th>Стовпчик 2</th>
+                        <th>Стовпчик 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3</td>
+                        <td>Ааай! Хочу в КПІ!</td>
+                        <td>ONE</td>
+                        <td>LOVE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Aвтомобіль</td>
+                        <td>в</td>
+                        <td>КПІ</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Бурса</td>
+                        <td>Піу?</td>
+                        <td>ПІУ, ПІУ!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--end row-->
+    </br>
+    <div id="lastDiv" class="text-center">
+        <h4>Ось і все. Чи була ця довідка для тебе корисною?</h4>
+        <p>Будь ласка, натисни на одну з кнопок: <span class="btn btn-success" onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Полезный: Да');$(this).parent().parent().html('<h3>Дякую!</h3>')">Так</span>
+            <span class="btn btn-warning" onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Полезный: Нет');$(this).parent().parent().html('<h3>Дякую!</h3>')">Ні</span>
+            <span class="btn btn-primary" onclick="ga('send', 'event', 'Основные метрики', 'Гайд', 'Полезный: Я в восторге!');$(this).parent().parent().html('<h3>Дякую!</h3>')">Я в захваті! <span class="glyphicon glyphicon-thumbs-up"></span></span>
+        </p>
+    </div>
+</div>
