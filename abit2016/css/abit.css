@@ -246,6 +246,9 @@ table>thead>tr>th#col-num {
 .demo-sort {
 	background-color: #ddd;
 }
+.detail-name {
+	min-height: 50px;
+}
 #go-up .glyphicon {
 	position: relative;
 	top: 50%;

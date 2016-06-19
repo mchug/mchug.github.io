@@ -413,7 +413,7 @@ function showMore(row) {
             var item = faculty.ways[i + j];
 
             info += "<div class=\"col-xs-4 way\">" +
-                "<div class=\"row text-center name\"><b>" + item["code"] + "</b> " + item["name"] + "</div>" +
+                "<div class=\"row text-center detail-name\"><b>" + item["code"] + "</b> " + item["name"] + "</div>" +
                 "<div class=\"row scores\">" +
                 "<span class=\"progress-label-r\">" + item["score-15"] + "</span>" +
                 "<span class=\"progress-label-l\">2015</span>" +
