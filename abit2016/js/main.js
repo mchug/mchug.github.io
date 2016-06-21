@@ -243,7 +243,7 @@ function getWay(code, defVal) {
             }
         }
     }
-    
+
     return defVal;
 }
 
@@ -564,7 +564,7 @@ function sortBy(col, field) {
                 ga('send', 'event', 'Основные метрики', 'Сортировка', 'По направлению');
 
                 sortFunc = function(a, b) {
-                    return ukrCompare(a["way"], b["way"]);
+                    return ukrCompare(getWay(a.code, a.way), getWay(b.code, b.way));
                 };
                 break;
 
@@ -574,19 +574,8 @@ function sortBy(col, field) {
 
                 sortFunc = function(a, b) {
 
-                    var getNum = function(a) {
-                        switch (a) {
-                            case "Молодший курс":
-                                return 0;
-                            case "Старший курс":
-                                return 1;
-                            default:
-                                return 2;
-                        }
-                    }
-
-                    var a = getNum(a.course);
-                    var b = getNum(b.course);
+                    var a = a.noob ? "1" : "0";
+                    var b = b.noob ? "1" : "0";
 
                     return a - b;
                 };
