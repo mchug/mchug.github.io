@@ -93,7 +93,7 @@ var dict = {
     "IHF": {
         "short-name-ua": "ІХФ",
         "full-name-ua": "Інженерно-Хімічний Факультет",
-        "short-name-ru": "ІХФ",
+        "short-name-ru": "ИХФ",
         "full-name-ru": "Инженерно-Xимический факультет"
     },
     "HTF": {
@@ -235,6 +235,18 @@ function getShortName(id) {
     return dict[id]["short-name-ua"];
 }
 
+function getWay(code, defVal) {
+    for (var i = 0; i < facsInfo.length; i++) {
+        for (var j = 0; j < facsInfo[i].ways.length; j++) {
+            if (facsInfo[i].ways[j].code === code) {
+                return facsInfo[i].ways[j].name;
+            }
+        }
+    }
+    
+    return defVal;
+}
+
 function display(searchResult) {
 
     if (searchResult.length == 0) {
@@ -261,7 +273,7 @@ function display(searchResult) {
     searchResult.forEach(function(item) {
         out += "<tr onclick=\"showMore(this)\">" +
             "<td class=\"num\">" + ($.inArray(item, people) + 1) + "</td>" +
-            "<td class=\"way\">" + "<span class='label way-code'>" + item.code + "</span>" + item.way + "</td>" +
+            "<td class=\"way\">" + "<span class='label way-code'>" + item.code + "</span>" + getWay(item.code, item.way) + "</td>" +
             "<td class=\"faculty\">" + getShortName(item.faculty) + "<span class='glyphicon glyphicon-info-sign'></span></td>" +
             "<td class=\"name\"><a href=\"http://" + item.page + "\" target=\"_blank\">" + item.name + "</a></td>" +
             "<td class=\"course\">" + (item.noob ? "Молодший курс" : "Старший курс") + "</td>" +
