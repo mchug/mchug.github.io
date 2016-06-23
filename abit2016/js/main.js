@@ -293,7 +293,7 @@ function display(searchResult) {
     });
 }
 
-var specialKeys = ["гайд", "про бали зно", "хелоу", "сикорский"];
+var specialKeys = ["гайд", "про бали зно", "хелоу", "сикорский", "стоит ли вообще поступать в кпи", "сколько балов нужно на бюджет"];
 
 function displaySpecial(key) {
 
@@ -301,7 +301,9 @@ function displaySpecial(key) {
         "гайд": "help.html",
         "про бали зно": "zno.html",
         "сикорский": "sick.html",
-        "хелоу": "about.html"
+        "хелоу": "about.html",
+        "стоит ли вообще поступать в кпи": "runyou.html",
+        "сколько балов нужно на бюджет": "balls.html"
     };
 
 
