@@ -293,14 +293,14 @@ function display(searchResult) {
     });
 }
 
-var specialKeys = ["гайд", "про бали зно", "авторы", "хелоу"];
+var specialKeys = ["гайд", "про бали зно", "хелоу", "сикорский"];
 
 function displaySpecial(key) {
 
     var map = {
         "гайд": "help.html",
         "про бали зно": "zno.html",
-        "авторы": "authors.html",
+        "сикорский": "sick.html",
         "хелоу": "about.html"
     };
 
