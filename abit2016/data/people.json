@@ -1735,6 +1735,14 @@
   "hostel": false,
   "page": "vk.com/id25695948"
 }, {
+  "name": "Олександр",
+  "page": "vk.com/id96251144",
+  "faculty": "TEF",
+  "code": "122",
+  "way": "Комп'ютерні науки та інформаційні технології",
+  "hostel": true,
+  "noob": true
+}, {
   "name": "Віталій",
   "page": "vk.com/id29437354",
   "faculty": "IPSA",
@@ -1837,14 +1845,6 @@
   "code": "122",
   "way": "Комп'ютерні науки та інформаційні технології",
   "hostel": false,
-  "noob": true
-}, {
-  "name": "Олександр",
-  "page": "vk.com/id96251144",
-  "faculty": "TEF",
-  "code": "122",
-  "way": "Комп'ютерні науки та інформаційні технології",
-  "hostel": true,
   "noob": true
 }, {
   "name": "Владислав",
