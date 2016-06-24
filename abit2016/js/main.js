@@ -236,6 +236,11 @@ function getShortName(id) {
 }
 
 function getWay(code, defVal) {
+    
+    if (code === "035") {
+        return defVal;
+    }
+    
     for (var i = 0; i < facsInfo.length; i++) {
         for (var j = 0; j < facsInfo[i].ways.length; j++) {
             if (facsInfo[i].ways[j].code === code) {
