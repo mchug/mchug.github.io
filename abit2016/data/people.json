@@ -15,14 +15,6 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Максим",
-  "page": "vk.com/id63449785",
-  "faculty": "FAKS",
-  "code": "134",
-  "way": "Авіаційна та ракетно-космічна техніка",
-  "hostel": true,
-  "noob": true
-}, {
   "name": "Заводной",
   "page": "vk.com/id348982669",
   "faculty": "FAKS",
@@ -31,8 +23,24 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Борис",
-  "page": "vk.com/id51612516",
+  "name": "Иван",
+  "code": "134",
+  "faculty": "FAKS",
+  "way": "Авіаційна та ракетно-космічна техніка",
+  "noob": true,
+  "hostel": true,
+  "page": "vk.com/id90156398"
+}, {
+  "name": "Максим",
+  "page": "vk.com/id63449785",
+  "faculty": "FAKS",
+  "code": "134",
+  "way": "Авіаційна та ракетно-космічна техніка",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Тамара",
+  "page": "vk.com/id138345331",
   "faculty": "FAKS",
   "code": "173",
   "way": "Авіоніка",
@@ -47,36 +55,12 @@
   "hostel": false,
   "noob": true
 }, {
-  "name": "Тамара",
-  "page": "vk.com/id138345331",
+  "name": "Борис",
+  "page": "vk.com/id51612516",
   "faculty": "FAKS",
   "code": "173",
   "way": "Авіоніка",
   "hostel": true,
-  "noob": true
-}, {
-  "name": "Сергей",
-  "page": "vk.com/id14695683",
-  "faculty": "IHF",
-  "code": "151",
-  "way": "Автоматизація та КІТ",
-  "hostel": false,
-  "noob": false
-}, {
-  "name": "Алексей",
-  "page": "vk.com/id22456111",
-  "faculty": "FIOT",
-  "code": "151",
-  "way": "Автоматизація та КІТ",
-  "hostel": false,
-  "noob": true
-}, {
-  "name": "Егор",
-  "page": "vk.com/id42515362",
-  "faculty": "TEF",
-  "code": "151",
-  "way": "Автоматизація та КІТ",
-  "hostel": false,
   "noob": true
 }, {
   "name": "Антон",
@@ -335,6 +319,38 @@
   "hostel": true,
   "noob": false
 }, {
+  "name": "Сергей",
+  "page": "vk.com/id14695683",
+  "faculty": "IHF",
+  "code": "151",
+  "way": "Автоматизація та КІТ",
+  "hostel": false,
+  "noob": false
+}, {
+  "name": "Дмитрий",
+  "code": "151",
+  "faculty": "FIOT",
+  "way": "Автоматизація та КІТ",
+  "noob": false,
+  "hostel": true,
+  "page": "vk.com/id176776102"
+}, {
+  "name": "Егор",
+  "page": "vk.com/id42515362",
+  "faculty": "TEF",
+  "code": "151",
+  "way": "Автоматизація та КІТ",
+  "hostel": false,
+  "noob": true
+}, {
+  "name": "Алексей",
+  "page": "vk.com/id22456111",
+  "faculty": "FIOT",
+  "code": "151",
+  "way": "Автоматизація та КІТ",
+  "hostel": false,
+  "noob": true
+}, {
   "name": "Diana",
   "page": "vk.com/id296516583",
   "faculty": "TEF",
@@ -351,13 +367,37 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Альона",
-  "page": "vk.com/id73353207",
+  "name": "Маришка",
+  "page": "vk.com/id46560882",
+  "faculty": "FBMI",
+  "code": "163",
+  "way": "Біомедична інженерія",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Евгения",
+  "page": "vk.com/id92033709",
   "faculty": "FBMI",
   "code": "163",
   "way": "Біомедична інженерія",
   "hostel": true,
   "noob": false
+}, {
+  "name": "Alex",
+  "page": "vk.com/id141349463",
+  "faculty": "FBMI",
+  "code": "163",
+  "way": "Біомедична інженерія",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Макс",
+  "page": "vk.com/id61796521",
+  "faculty": "FBMI",
+  "code": "163",
+  "way": "Біомедична інженерія",
+  "hostel": false,
+  "noob": true
 }, {
   "name": "Александр",
   "page": "vk.com/id51369936",
@@ -383,14 +423,6 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Макс",
-  "page": "vk.com/id61796521",
-  "faculty": "FBMI",
-  "code": "163",
-  "way": "Біомедична інженерія",
-  "hostel": false,
-  "noob": true
-}, {
   "name": "Екатерина",
   "page": "vk.com/id31925537",
   "faculty": "FBMI",
@@ -399,61 +431,13 @@
   "hostel": false,
   "noob": true
 }, {
-  "name": "Евгения",
-  "page": "vk.com/id92033709",
+  "name": "Альона",
+  "page": "vk.com/id73353207",
   "faculty": "FBMI",
   "code": "163",
   "way": "Біомедична інженерія",
   "hostel": true,
   "noob": false
-}, {
-  "name": "Alex",
-  "page": "vk.com/id141349463",
-  "faculty": "FBMI",
-  "code": "163",
-  "way": "Біомедична інженерія",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Маришка",
-  "page": "vk.com/id46560882",
-  "faculty": "FBMI",
-  "code": "163",
-  "way": "Біомедична інженерія",
-  "hostel": true,
-  "noob": true
-}, {
-  "name": "Богдан",
-  "page": "vk.com/id62502015",
-  "faculty": "FBT",
-  "code": "162",
-  "way": "Біотехнологія та біоінженерія",
-  "hostel": true,
-  "noob": true
-}, {
-  "name": "Людмила",
-  "page": "vk.com/id10431695",
-  "faculty": "FBT",
-  "code": "162",
-  "way": "Біотехнологія та біоінженерія",
-  "hostel": false,
-  "noob": false
-}, {
-  "name": "Vladyslav",
-  "page": "vk.com/id325765141",
-  "faculty": "FBT",
-  "code": "162",
-  "way": "Біотехнологія та біоінженерія",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Виктор",
-  "page": "vk.com/id43319925",
-  "faculty": "FBT",
-  "code": "162",
-  "way": "Біотехнологія та біоінженерія",
-  "hostel": true,
-  "noob": true
 }, {
   "name": "Юля",
   "page": "vk.com/id53070632",
@@ -543,37 +527,37 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Оксана",
-  "page": "vk.com/id44267167",
-  "faculty": "VPI",
-  "code": "186",
-  "way": "Видавництво та поліграфія",
+  "name": "Богдан",
+  "page": "vk.com/id62502015",
+  "faculty": "FBT",
+  "code": "162",
+  "way": "Біотехнологія та біоінженерія",
   "hostel": true,
   "noob": true
 }, {
-  "name": "Ірина",
-  "page": "vk.com/id12973477",
-  "faculty": "VPI",
-  "code": "186",
-  "way": "Видавництво та поліграфія",
+  "name": "Людмила",
+  "page": "vk.com/id10431695",
+  "faculty": "FBT",
+  "code": "162",
+  "way": "Біотехнологія та біоінженерія",
+  "hostel": false,
+  "noob": false
+}, {
+  "name": "Vladyslav",
+  "page": "vk.com/id325765141",
+  "faculty": "FBT",
+  "code": "162",
+  "way": "Біотехнологія та біоінженерія",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Виктор",
+  "page": "vk.com/id43319925",
+  "faculty": "FBT",
+  "code": "162",
+  "way": "Біотехнологія та біоінженерія",
   "hostel": true,
   "noob": true
-}, {
-  "name": "Ксения",
-  "page": "vk.com/id9680535",
-  "faculty": "VPI",
-  "code": "186",
-  "way": "Видавництво та поліграфія",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Даша",
-  "page": "vk.com/id15605928",
-  "faculty": "VPI",
-  "code": "186",
-  "way": "Видавництво та поліграфія",
-  "hostel": true,
-  "noob": false
 }, {
   "name": "Mary",
   "code": "186",
@@ -583,12 +567,12 @@
   "hostel": true,
   "page": "vk.com/id261122517"
 }, {
-  "name": "Катя",
-  "page": "vk.com/id13515857",
+  "name": "Ярина",
+  "page": "vk.com/id23338962",
   "faculty": "VPI",
   "code": "186",
   "way": "Видавництво та поліграфія",
-  "hostel": false,
+  "hostel": true,
   "noob": true
 }, {
   "name": "Софійка",
@@ -599,8 +583,8 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Ярина",
-  "page": "vk.com/id23338962",
+  "name": "Ірина",
+  "page": "vk.com/id12973477",
   "faculty": "VPI",
   "code": "186",
   "way": "Видавництво та поліграфія",
@@ -614,14 +598,6 @@
   "noob": true,
   "hostel": false,
   "page": "vk.com/id21027537"
-}, {
-  "name": "Анастасия",
-  "page": "vk.com/id145229818",
-  "faculty": "VPI",
-  "code": "186",
-  "way": "Видавництво та поліграфія",
-  "hostel": false,
-  "noob": true
 }, {
   "name": "Александр",
   "code": "186",
@@ -639,20 +615,20 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Владислав",
-  "page": "vk.com/id88266652",
-  "faculty": "MMI",
-  "code": "133",
-  "way": "Галузеве машинобудування",
+  "name": "Оксана",
+  "page": "vk.com/id44267167",
+  "faculty": "VPI",
+  "code": "186",
+  "way": "Видавництво та поліграфія",
   "hostel": true,
   "noob": true
 }, {
-  "name": "Андрей",
-  "page": "vk.com/id63305070",
-  "faculty": "MMI",
-  "code": "133",
-  "way": "Галузеве машинобудування",
-  "hostel": false,
+  "name": "Ксения",
+  "page": "vk.com/id9680535",
+  "faculty": "VPI",
+  "code": "186",
+  "way": "Видавництво та поліграфія",
+  "hostel": true,
   "noob": false
 }, {
   "name": "Макс",
@@ -663,13 +639,13 @@
   "hostel": false,
   "noob": false
 }, {
-  "name": "Андрей",
-  "page": "vk.com/id45645332",
-  "faculty": "MMI",
+  "name": "Борис",
+  "page": "vk.com/id120038827",
+  "faculty": "IHF",
   "code": "133",
   "way": "Галузеве машинобудування",
   "hostel": false,
-  "noob": true
+  "noob": false
 }, {
   "name": "Виталий",
   "page": "vk.com/id34532963",
@@ -711,13 +687,29 @@
   "hostel": true,
   "page": "vk.com/id157703240"
 }, {
-  "name": "Борис",
-  "page": "vk.com/id120038827",
-  "faculty": "IHF",
+  "name": "Андрей",
+  "page": "vk.com/id63305070",
+  "faculty": "MMI",
   "code": "133",
   "way": "Галузеве машинобудування",
   "hostel": false,
   "noob": false
+}, {
+  "name": "Владислав",
+  "page": "vk.com/id88266652",
+  "faculty": "MMI",
+  "code": "133",
+  "way": "Галузеве машинобудування",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Андрей",
+  "page": "vk.com/id45645332",
+  "faculty": "MMI",
+  "code": "133",
+  "way": "Галузеве машинобудування",
+  "hostel": false,
+  "noob": true
 }, {
   "name": "Виталий",
   "code": "184",
@@ -735,29 +727,13 @@
   "hostel": false,
   "page": "vk.com/id69978942"
 }, {
-  "name": "Надя",
-  "page": "vk.com/id10661481",
+  "name": "Марина",
+  "page": "vk.com/id83214817",
   "faculty": "FMM",
   "code": "051",
   "way": "Економіка",
   "hostel": true,
   "noob": false
-}, {
-  "name": "Євгенія",
-  "page": "vk.com/id45506965",
-  "faculty": "FMM",
-  "code": "051",
-  "way": "Економіка",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Остапчук",
-  "page": "vk.com/id234675298",
-  "faculty": "FMM",
-  "code": "051",
-  "way": "Економіка",
-  "hostel": true,
-  "noob": true
 }, {
   "name": "Олег",
   "page": "vk.com/id20650644",
@@ -791,8 +767,8 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Марина",
-  "page": "vk.com/id83214817",
+  "name": "Євгенія",
+  "page": "vk.com/id45506965",
   "faculty": "FMM",
   "code": "051",
   "way": "Економіка",
@@ -831,6 +807,22 @@
   "hostel": true,
   "noob": true
 }, {
+  "name": "Надя",
+  "page": "vk.com/id10661481",
+  "faculty": "FMM",
+  "code": "051",
+  "way": "Економіка",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Остапчук",
+  "page": "vk.com/id234675298",
+  "faculty": "FMM",
+  "code": "051",
+  "way": "Економіка",
+  "hostel": true,
+  "noob": true
+}, {
   "name": "Никита",
   "page": "vk.com/id82688569",
   "faculty": "FEA",
@@ -855,13 +847,13 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Назар",
-  "page": "vk.com/id34572915",
+  "name": "Юра",
+  "page": "vk.com/id19438633",
   "faculty": "FEA",
   "code": "141",
   "way": "Електроенергетика, електротехніка та електромеханіка",
   "hostel": true,
-  "noob": false
+  "noob": true
 }, {
   "name": "Владислав",
   "page": "vk.com/id21286303",
@@ -991,21 +983,13 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Юра",
-  "page": "vk.com/id19438633",
+  "name": "Назар",
+  "page": "vk.com/id34572915",
   "faculty": "FEA",
   "code": "141",
   "way": "Електроенергетика, електротехніка та електромеханіка",
   "hostel": true,
-  "noob": true
-}, {
-  "name": "Максим",
-  "code": "171",
-  "faculty": "FEL",
-  "way": "Електроніка",
-  "noob": true,
-  "hostel": true,
-  "page": "vk.com/id58616058"
+  "noob": false
 }, {
   "name": "Ирина",
   "page": "vk.com/id12369859",
@@ -1022,6 +1006,14 @@
   "way": "Електроніка",
   "hostel": true,
   "noob": true
+}, {
+  "name": "Максим",
+  "code": "171",
+  "faculty": "FEL",
+  "way": "Електроніка",
+  "noob": true,
+  "hostel": true,
+  "page": "vk.com/id58616058"
 }, {
   "name": "Анастасія",
   "page": "vk.com/id57153022",
@@ -1095,28 +1087,36 @@
   "hostel": false,
   "noob": false
 }, {
-  "name": "Богдан",
-  "page": "vk.com/id252479902",
-  "faculty": "FIOT",
-  "code": "121",
-  "way": "Інженерія програмного забезпечення",
+  "name": "Даша",
+  "page": "vk.com/id15605928",
+  "faculty": "VPI",
+  "code": "061",
+  "way": "Журналістика",
   "hostel": true,
   "noob": false
 }, {
-  "name": "Віта",
-  "page": "vk.com/id137482394",
-  "faculty": "FIOT",
+  "name": "Катя",
+  "page": "vk.com/id13515857",
+  "faculty": "VPI",
+  "code": "061",
+  "way": "Журналістика",
+  "hostel": false,
+  "noob": true
+}, {
+  "name": "Анастасия",
+  "page": "vk.com/id145229818",
+  "faculty": "VPI",
+  "code": "061",
+  "way": "Журналістика",
+  "hostel": false,
+  "noob": true
+}, {
+  "name": "Владимир",
+  "page": "vk.com/id38778423",
+  "faculty": "FPM",
   "code": "121",
   "way": "Інженерія програмного забезпечення",
   "hostel": true,
-  "noob": true
-}, {
-  "name": "Федор",
-  "page": "vk.com/id38039885",
-  "faculty": "FIOT",
-  "code": "121",
-  "way": "Інженерія програмного забезпечення",
-  "hostel": false,
   "noob": true
 }, {
   "name": "Андрій",
@@ -1126,14 +1126,6 @@
   "way": "Інженерія програмного забезпечення",
   "hostel": false,
   "noob": true
-}, {
-  "name": "Артур",
-  "page": "vk.com/id26097078",
-  "faculty": "FIOT",
-  "code": "121",
-  "way": "Інженерія програмного забезпечення",
-  "hostel": false,
-  "noob": false
 }, {
   "name": "Надя",
   "page": "vk.com/id176550562",
@@ -1327,12 +1319,12 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Григорий",
-  "page": "vk.com/id43455999",
+  "name": "Федор",
+  "page": "vk.com/id38039885",
   "faculty": "FIOT",
   "code": "121",
   "way": "Інженерія програмного забезпечення",
-  "hostel": true,
+  "hostel": false,
   "noob": true
 }, {
   "name": "Андрій",
@@ -1391,13 +1383,13 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Владимир",
-  "page": "vk.com/id38778423",
-  "faculty": "FPM",
+  "name": "Артур",
+  "page": "vk.com/id26097078",
+  "faculty": "FIOT",
   "code": "121",
   "way": "Інженерія програмного забезпечення",
-  "hostel": true,
-  "noob": true
+  "hostel": false,
+  "noob": false
 }, {
   "name": "Денис",
   "page": "vk.com/id54670117",
@@ -1471,32 +1463,32 @@
   "hostel": false,
   "noob": true
 }, {
-  "name": "Игорь",
-  "page": "vk.com/id40715248",
-  "faculty": "FTI",
-  "code": "125",
-  "way": "Кібербезпека",
-  "hostel": false,
-  "noob": false
-}, {
-  "name": "Никита",
-  "page": "vk.com/id255644118",
-  "faculty": "FTI",
-  "code": "125",
-  "way": "Кібербезпека",
+  "name": "Богдан",
+  "page": "vk.com/id252479902",
+  "faculty": "FIOT",
+  "code": "121",
+  "way": "Інженерія програмного забезпечення",
   "hostel": true,
   "noob": false
 }, {
-  "name": "Влад",
-  "page": "vk.com/id128067896",
-  "faculty": "FTI",
-  "code": "125",
-  "way": "Кібербезпека",
+  "name": "Віта",
+  "page": "vk.com/id137482394",
+  "faculty": "FIOT",
+  "code": "121",
+  "way": "Інженерія програмного забезпечення",
   "hostel": true,
   "noob": true
 }, {
-  "name": "Димон",
-  "page": "vk.com/id34962577",
+  "name": "Григорий",
+  "page": "vk.com/id43455999",
+  "faculty": "FIOT",
+  "code": "121",
+  "way": "Інженерія програмного забезпечення",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Влад",
+  "page": "vk.com/id128067896",
   "faculty": "FTI",
   "code": "125",
   "way": "Кібербезпека",
@@ -1575,13 +1567,13 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Volodymyr",
-  "page": "vk.com/id80260524",
+  "name": "Димон",
+  "page": "vk.com/id34962577",
   "faculty": "FTI",
   "code": "125",
   "way": "Кібербезпека",
   "hostel": true,
-  "noob": false
+  "noob": true
 }, {
   "name": "Макс",
   "page": "vk.com/id172358985",
@@ -1639,21 +1631,29 @@
   "hostel": true,
   "page": "vk.com/id117691444"
 }, {
-  "name": "Вадім",
-  "code": "123",
-  "faculty": "FIOT",
-  "way": "Комп'ютерна інженерія",
-  "noob": false,
+  "name": "Никита",
+  "page": "vk.com/id255644118",
+  "faculty": "FTI",
+  "code": "125",
+  "way": "Кібербезпека",
   "hostel": true,
-  "page": "vk.com/id83314177"
+  "noob": false
 }, {
-  "name": "Дмитро",
-  "page": "vk.com/id119393651",
-  "faculty": "FPM",
-  "code": "123",
-  "way": "Комп'ютерна інженерія",
+  "name": "Игорь",
+  "page": "vk.com/id40715248",
+  "faculty": "FTI",
+  "code": "125",
+  "way": "Кібербезпека",
+  "hostel": false,
+  "noob": false
+}, {
+  "name": "Volodymyr",
+  "page": "vk.com/id80260524",
+  "faculty": "FTI",
+  "code": "125",
+  "way": "Кібербезпека",
   "hostel": true,
-  "noob": true
+  "noob": false
 }, {
   "name": "Леонід",
   "page": "vk.com/id115137798",
@@ -1807,24 +1807,32 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Женя",
-  "page": "vk.com/id12611164",
-  "faculty": "TEF",
-  "code": "122",
-  "way": "Комп'ютерні науки та інформаційні технології",
+  "name": "Влад",
+  "code": "123",
+  "faculty": "FPM",
+  "way": "Комп'ютерна інженерія",
+  "noob": true,
   "hostel": true,
-  "noob": false
+  "page": "vk.com/id144183593"
 }, {
-  "name": "Віктор",
-  "page": "vk.com/id51507164",
-  "faculty": "IPSA",
-  "code": "122",
-  "way": "Комп'ютерні науки та інформаційні технології",
+  "name": "Вадім",
+  "code": "123",
+  "faculty": "FIOT",
+  "way": "Комп'ютерна інженерія",
+  "noob": false,
   "hostel": true,
-  "noob": false
+  "page": "vk.com/id83314177"
 }, {
-  "name": "Глеб",
-  "page": "vk.com/id308406604",
+  "name": "Дмитро",
+  "page": "vk.com/id119393651",
+  "faculty": "FPM",
+  "code": "123",
+  "way": "Комп'ютерна інженерія",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Олександр",
+  "page": "vk.com/id96251144",
   "faculty": "TEF",
   "code": "122",
   "way": "Комп'ютерні науки та інформаційні технології",
@@ -1839,12 +1847,12 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Алексей",
-  "page": "vk.com/id91331983",
-  "faculty": "FBMI",
+  "name": "Анна",
+  "page": "vk.com/id122531462",
+  "faculty": "TEF",
   "code": "122",
   "way": "Комп'ютерні науки та інформаційні технології",
-  "hostel": false,
+  "hostel": true,
   "noob": true
 }, {
   "name": "Владислав",
@@ -1935,8 +1943,8 @@
   "hostel": true,
   "page": "vk.com/id40419092"
 }, {
-  "name": "Анна",
-  "page": "vk.com/id122531462",
+  "name": "Глеб",
+  "page": "vk.com/id308406604",
   "faculty": "TEF",
   "code": "122",
   "way": "Комп'ютерні науки та інформаційні технології",
@@ -2150,15 +2158,7 @@
   "way": "Комп'ютерні науки та інформаційні технології",
   "hostel": true,
   "noob": true
-}, {
-  "name": "Олександр",
-  "page": "vk.com/id96251144",
-  "faculty": "TEF",
-  "code": "122",
-  "way": "Комп'ютерні науки та інформаційні технології",
-  "hostel": true,
-  "noob": true
-}, {
+} , {
   "name": "Віталій",
   "page": "vk.com/id29437354",
   "faculty": "IPSA",
@@ -2223,29 +2223,29 @@
   "hostel": false,
   "noob": true
 }, {
-  "name": "Віталік",
-  "code": "075",
-  "faculty": "FMM",
-  "way": "Маркетинг",
-  "noob": true,
-  "hostel": true,
-  "page": "vk.com/id179421296"
-}, {
-  "name": "Зоя",
-  "page": "vk.com/id87613832",
-  "faculty": "FMM",
-  "code": "075",
-  "way": "Маркетинг",
+  "name": "Женя",
+  "page": "vk.com/id12611164",
+  "faculty": "TEF",
+  "code": "122",
+  "way": "Комп'ютерні науки та інформаційні технології",
   "hostel": true,
   "noob": false
 }, {
-  "name": "Кристина",
-  "page": "vk.com/id18265605",
-  "faculty": "FMM",
-  "code": "075",
-  "way": "Маркетинг",
+  "name": "Віктор",
+  "page": "vk.com/id51507164",
+  "faculty": "IPSA",
+  "code": "122",
+  "way": "Комп'ютерні науки та інформаційні технології",
   "hostel": true,
   "noob": false
+}, {
+  "name": "Алексей",
+  "page": "vk.com/id91331983",
+  "faculty": "FBMI",
+  "code": "122",
+  "way": "Комп'ютерні науки та інформаційні технології",
+  "hostel": false,
+  "noob": true
 }, {
   "name": "Ирина",
   "page": "vk.com/id152390036",
@@ -2255,16 +2255,32 @@
   "hostel": false,
   "noob": false
 }, {
-  "name": "Олександр",
-  "page": "vk.com/id71619146",
-  "faculty": "FMF",
-  "code": "111",
-  "way": "Математика",
+  "name": "Зоя",
+  "page": "vk.com/id87613832",
+  "faculty": "FMM",
+  "code": "075",
+  "way": "Маркетинг",
   "hostel": true,
   "noob": false
 }, {
-  "name": "Костя",
-  "page": "vk.com/id23155783",
+  "name": "Віталік",
+  "code": "075",
+  "faculty": "FMM",
+  "way": "Маркетинг",
+  "noob": true,
+  "hostel": true,
+  "page": "vk.com/id179421296"
+}, {
+  "name": "Кристина",
+  "page": "vk.com/id18265605",
+  "faculty": "FMM",
+  "code": "075",
+  "way": "Маркетинг",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Олександр",
+  "page": "vk.com/id71619146",
   "faculty": "FMF",
   "code": "111",
   "way": "Математика",
@@ -2287,19 +2303,11 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Ігор",
-  "page": "vk.com/id73395818",
-  "faculty": "IFF",
-  "code": "132",
-  "way": "Матеріалознавство",
-  "hostel": true,
-  "noob": true
-}, {
-  "name": "Наташа",
-  "page": "vk.com/id202839062",
-  "faculty": "IFF",
-  "code": "132",
-  "way": "Матеріалознавство",
+  "name": "Костя",
+  "page": "vk.com/id23155783",
+  "faculty": "FMF",
+  "code": "111",
+  "way": "Математика",
   "hostel": true,
   "noob": false
 }, {
@@ -2311,43 +2319,19 @@
   "hostel": false,
   "noob": false
 }, {
-  "name": "Stanislav",
-  "page": "vk.com/id342408867",
-  "faculty": "FMM",
-  "code": "073",
-  "way": "Менеджмент",
-  "hostel": true,
-  "noob": true
-}, {
-  "name": "Оксана",
-  "page": "vk.com/id17952951",
-  "faculty": "FMM",
-  "code": "073",
-  "way": "Менеджмент",
-  "hostel": false,
-  "noob": false
-}, {
-  "name": "Алиса",
-  "page": "vk.com/id37823396",
-  "faculty": "VPI",
-  "code": "073",
-  "way": "Менеджмент",
+  "name": "Наташа",
+  "page": "vk.com/id202839062",
+  "faculty": "IFF",
+  "code": "132",
+  "way": "Матеріалознавство",
   "hostel": true,
   "noob": false
 }, {
-  "name": "Денис",
-  "code": "073",
-  "faculty": "VPI",
-  "way": "Менеджмент",
-  "noob": true,
-  "hostel": false,
-  "page": "vk.com/id133773713"
-}, {
-  "name": "Настя",
-  "page": "vk.com/id65637723",
-  "faculty": "FMM",
-  "code": "073",
-  "way": "Менеджмент",
+  "name": "Ігор",
+  "page": "vk.com/id73395818",
+  "faculty": "IFF",
+  "code": "132",
+  "way": "Матеріалознавство",
   "hostel": true,
   "noob": true
 }, {
@@ -2407,6 +2391,46 @@
   "hostel": false,
   "noob": true
 }, {
+  "name": "Оксана",
+  "page": "vk.com/id17952951",
+  "faculty": "FMM",
+  "code": "073",
+  "way": "Менеджмент",
+  "hostel": false,
+  "noob": false
+}, {
+  "name": "Настя",
+  "page": "vk.com/id65637723",
+  "faculty": "FMM",
+  "code": "073",
+  "way": "Менеджмент",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Алиса",
+  "page": "vk.com/id37823396",
+  "faculty": "VPI",
+  "code": "073",
+  "way": "Менеджмент",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Stanislav",
+  "page": "vk.com/id342408867",
+  "faculty": "FMM",
+  "code": "073",
+  "way": "Менеджмент",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Денис",
+  "code": "073",
+  "faculty": "VPI",
+  "way": "Менеджмент",
+  "noob": true,
+  "hostel": false,
+  "page": "vk.com/id133773713"
+}, {
   "name": "Женя",
   "page": "vk.com/id58936408",
   "faculty": "IFF",
@@ -2415,53 +2439,13 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Игорь",
+  "name": "Дмитрий",
   "code": "152",
   "faculty": "PBF",
   "way": "Метрологія та інформаційно-вимірювальна техніка",
   "noob": false,
   "hostel": true,
-  "page": "vk.com/id11268535"
-}, {
-  "name": "Никита",
-  "page": "vk.com/id15376596",
-  "faculty": "FBMI",
-  "code": "152",
-  "way": "Метрологія та інформаційно-вимірювальна техніка",
-  "hostel": true,
-  "noob": true
-}, {
-  "name": "Оля",
-  "page": "vk.com/id19657636",
-  "faculty": "FAKS",
-  "code": "152",
-  "way": "Метрологія та інформаційно-вимірювальна техніка",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "София",
-  "page": "vk.com/id311863032",
-  "faculty": "PBF",
-  "code": "152",
-  "way": "Метрологія та інформаційно-вимірювальна техніка",
-  "hostel": true,
-  "noob": true
-}, {
-  "name": "Юра",
-  "code": "152",
-  "faculty": "FAKS",
-  "way": "Метрологія та інформаційно-вимірювальна техніка",
-  "noob": false,
-  "hostel": true,
-  "page": "vk.com/id96782929"
-}, {
-  "name": "Саня",
-  "code": "152",
-  "faculty": "PBF",
-  "way": "Метрологія та інформаційно-вимірювальна техніка",
-  "noob": false,
-  "hostel": false,
-  "page": "vk.com/id35238921"
+  "page": "vk.com/id56734946"
 }, {
   "name": "Зю",
   "code": "152",
@@ -2503,13 +2487,13 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Дмитрий",
+  "name": "Саня",
   "code": "152",
   "faculty": "PBF",
   "way": "Метрологія та інформаційно-вимірювальна техніка",
   "noob": false,
-  "hostel": true,
-  "page": "vk.com/id56734946"
+  "hostel": false,
+  "page": "vk.com/id35238921"
 }, {
   "name": "Богдан",
   "page": "vk.com/id45948719",
@@ -2519,37 +2503,45 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Matyash",
-  "page": "vk.com/id251972365",
-  "faculty": "FEL",
-  "code": "153",
-  "way": "Мікро - та наносистемна техніка",
-  "hostel": false,
+  "name": "Оля",
+  "page": "vk.com/id19657636",
+  "faculty": "FAKS",
+  "code": "152",
+  "way": "Метрологія та інформаційно-вимірювальна техніка",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Никита",
+  "page": "vk.com/id15376596",
+  "faculty": "FBMI",
+  "code": "152",
+  "way": "Метрологія та інформаційно-вимірювальна техніка",
+  "hostel": true,
   "noob": true
 }, {
-  "name": "Валентин",
-  "page": "vk.com/id102173803",
-  "faculty": "FEL",
-  "code": "153",
-  "way": "Мікро - та наносистемна техніка",
-  "hostel": false,
-  "noob": false
-}, {
-  "name": "Ростислав",
-  "page": "vk.com/id150483965",
-  "faculty": "FEL",
-  "code": "153",
-  "way": "Мікро - та наносистемна техніка",
+  "name": "Игорь",
+  "code": "152",
+  "faculty": "PBF",
+  "way": "Метрологія та інформаційно-вимірювальна техніка",
+  "noob": false,
   "hostel": true,
-  "noob": false
+  "page": "vk.com/id11268535"
 }, {
-  "name": "Андрей",
-  "code": "153",
-  "faculty": "FEL",
-  "way": "Мікро - та наносистемна техніка",
-  "noob": true,
+  "name": "Юра",
+  "code": "152",
+  "faculty": "FAKS",
+  "way": "Метрологія та інформаційно-вимірювальна техніка",
+  "noob": false,
   "hostel": true,
-  "page": "vk.com/id75860940"
+  "page": "vk.com/id96782929"
+}, {
+  "name": "София",
+  "page": "vk.com/id311863032",
+  "faculty": "PBF",
+  "code": "152",
+  "way": "Метрологія та інформаційно-вимірювальна техніка",
+  "hostel": true,
+  "noob": true
 }, {
   "name": "Даня",
   "page": "vk.com/id27492444",
@@ -2583,6 +2575,38 @@
   "hostel": true,
   "noob": false
 }, {
+  "name": "Matyash",
+  "page": "vk.com/id251972365",
+  "faculty": "FEL",
+  "code": "153",
+  "way": "Мікро - та наносистемна техніка",
+  "hostel": false,
+  "noob": true
+}, {
+  "name": "Валентин",
+  "page": "vk.com/id102173803",
+  "faculty": "FEL",
+  "code": "153",
+  "way": "Мікро - та наносистемна техніка",
+  "hostel": false,
+  "noob": false
+}, {
+  "name": "Ростислав",
+  "page": "vk.com/id150483965",
+  "faculty": "FEL",
+  "code": "153",
+  "way": "Мікро - та наносистемна техніка",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Андрей",
+  "code": "153",
+  "faculty": "FEL",
+  "way": "Мікро - та наносистемна техніка",
+  "noob": true,
+  "hostel": true,
+  "page": "vk.com/id75860940"
+}, {
   "name": "Олексій",
   "page": "vk.com/id161743324",
   "faculty": "VPI",
@@ -2607,28 +2631,12 @@
   "hostel": false,
   "noob": false
 }, {
-  "name": "Назар",
-  "code": "081",
-  "faculty": "FSP",
-  "way": "Право",
-  "noob": true,
-  "hostel": false,
-  "page": "vk.com/id51769123"
-}, {
   "name": "Александра",
   "page": "vk.com/id65668394",
   "faculty": "FSP",
   "code": "081",
   "way": "Право",
   "hostel": false,
-  "noob": true
-}, {
-  "name": "Влад",
-  "page": "vk.com/id92574430",
-  "faculty": "FSP",
-  "code": "081",
-  "way": "Право",
-  "hostel": true,
   "noob": true
 }, {
   "name": "Андрей",
@@ -2639,32 +2647,24 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Владислав",
-  "page": "vk.com/id17554906",
-  "faculty": "FTI",
-  "code": "113",
-  "way": "Прикладна математика",
+  "name": "Назар",
+  "code": "081",
+  "faculty": "FSP",
+  "way": "Право",
+  "noob": true,
   "hostel": false,
-  "noob": false
+  "page": "vk.com/id51769123"
 }, {
-  "name": "Маргарита",
-  "page": "vk.com/id202861357",
-  "faculty": "FPM",
-  "code": "113",
-  "way": "Прикладна математика",
+  "name": "Влад",
+  "page": "vk.com/id92574430",
+  "faculty": "FSP",
+  "code": "081",
+  "way": "Право",
   "hostel": true,
   "noob": true
 }, {
-  "name": "Вася",
-  "page": "vk.com/id133418612",
-  "faculty": "FPM",
-  "code": "113",
-  "way": "Прикладна математика",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Valeria",
-  "page": "vk.com/id17239778",
+  "name": "Александра",
+  "page": "vk.com/id15344821",
   "faculty": "FTI",
   "code": "113",
   "way": "Прикладна математика",
@@ -2678,14 +2678,6 @@
   "way": "Прикладна математика",
   "hostel": false,
   "noob": false
-}, {
-  "name": "Юрий",
-  "page": "vk.com/id151833611",
-  "faculty": "FPM",
-  "code": "113",
-  "way": "Прикладна математика",
-  "hostel": false,
-  "noob": true
 }, {
   "name": "Настя",
   "page": "vk.com/id90736804",
@@ -2735,8 +2727,8 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Оксана",
-  "page": "vk.com/id21349733",
+  "name": "Valeria",
+  "page": "vk.com/id17239778",
   "faculty": "FTI",
   "code": "113",
   "way": "Прикладна математика",
@@ -2759,13 +2751,13 @@
   "hostel": false,
   "page": "vk.com/id209316829"
 }, {
-  "name": "Александра",
-  "page": "vk.com/id15344821",
-  "faculty": "FTI",
+  "name": "Юрий",
+  "page": "vk.com/id151833611",
+  "faculty": "FPM",
   "code": "113",
   "way": "Прикладна математика",
-  "hostel": true,
-  "noob": false
+  "hostel": false,
+  "noob": true
 }, {
   "name": "Лада",
   "page": "vk.com/id119293750",
@@ -2823,29 +2815,37 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Иван",
-  "page": "vk.com/id62700624",
-  "faculty": "MMI",
-  "code": "131",
-  "way": "Прикладна механіка",
+  "name": "Вася",
+  "page": "vk.com/id133418612",
+  "faculty": "FPM",
+  "code": "113",
+  "way": "Прикладна математика",
   "hostel": true,
   "noob": false
 }, {
-  "name": "Саня",
-  "page": "vk.com/id58515262",
-  "faculty": "ZF",
-  "code": "131",
-  "way": "Прикладна механіка",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Владислав",
-  "page": "vk.com/id75177611",
-  "faculty": "MMI",
-  "code": "131",
-  "way": "Прикладна механіка",
+  "name": "Маргарита",
+  "page": "vk.com/id202861357",
+  "faculty": "FPM",
+  "code": "113",
+  "way": "Прикладна математика",
   "hostel": true,
   "noob": true
+}, {
+  "name": "Владислав",
+  "page": "vk.com/id17554906",
+  "faculty": "FTI",
+  "code": "113",
+  "way": "Прикладна математика",
+  "hostel": false,
+  "noob": false
+}, {
+  "name": "Оксана",
+  "page": "vk.com/id21349733",
+  "faculty": "FTI",
+  "code": "113",
+  "way": "Прикладна математика",
+  "hostel": true,
+  "noob": false
 }, {
   "name": "Александр",
   "page": "vk.com/id271689311",
@@ -2927,28 +2927,28 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Паша",
-  "code": "105",
-  "faculty": "FTI",
-  "way": "Прикладна фізика та наноматеріали",
-  "noob": true,
-  "hostel": false,
-  "page": "vk.com/id38734889"
-}, {
-  "name": "Дмитрий",
-  "page": "vk.com/id12434632",
-  "faculty": "FTI",
-  "code": "105",
-  "way": "Прикладна фізика та наноматеріали",
-  "hostel": false,
+  "name": "Иван",
+  "page": "vk.com/id62700624",
+  "faculty": "MMI",
+  "code": "131",
+  "way": "Прикладна механіка",
+  "hostel": true,
   "noob": false
 }, {
-  "name": "Віра",
-  "page": "vk.com/id108726116",
-  "faculty": "FTI",
-  "code": "105",
-  "way": "Прикладна фізика та наноматеріали",
-  "hostel": false,
+  "name": "Саня",
+  "page": "vk.com/id58515262",
+  "faculty": "ZF",
+  "code": "131",
+  "way": "Прикладна механіка",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Владислав",
+  "page": "vk.com/id75177611",
+  "faculty": "MMI",
+  "code": "131",
+  "way": "Прикладна механіка",
+  "hostel": true,
   "noob": true
 }, {
   "name": "Alex",
@@ -2958,14 +2958,6 @@
   "way": "Прикладна фізика та наноматеріали",
   "hostel": true,
   "noob": false
-}, {
-  "name": "Игорь",
-  "page": "vk.com/id50887357",
-  "faculty": "FTI",
-  "code": "105",
-  "way": "Прикладна фізика та наноматеріали",
-  "hostel": true,
-  "noob": true
 }, {
   "name": "Лена",
   "page": "vk.com/id18314044",
@@ -2999,35 +2991,43 @@
   "hostel": true,
   "page": "vk.com/id19717516"
 }, {
-  "name": "Артём",
-  "page": "vk.com/id135901574",
-  "faculty": "IPSA",
-  "code": "124",
-  "way": "Системний аналіз",
-  "hostel": true,
-  "noob": true
-}, {
-  "name": "Марьяна",
-  "page": "vk.com/id151756575",
-  "faculty": "IPSA",
-  "code": "124",
-  "way": "Системний аналіз",
+  "name": "Віра",
+  "page": "vk.com/id108726116",
+  "faculty": "FTI",
+  "code": "105",
+  "way": "Прикладна фізика та наноматеріали",
   "hostel": false,
   "noob": true
 }, {
-  "name": "Оля",
-  "page": "vk.com/id17513783",
-  "faculty": "IPSA",
-  "code": "124",
-  "way": "Системний аналіз",
+  "name": "Евгений",
+  "code": "105",
+  "faculty": "FTI",
+  "way": "Прикладна фізика та наноматеріали",
+  "noob": false,
   "hostel": true,
+  "page": "vk.com/id72094297"
+}, {
+  "name": "Паша",
+  "code": "105",
+  "faculty": "FTI",
+  "way": "Прикладна фізика та наноматеріали",
+  "noob": true,
+  "hostel": false,
+  "page": "vk.com/id38734889"
+}, {
+  "name": "Дмитрий",
+  "page": "vk.com/id12434632",
+  "faculty": "FTI",
+  "code": "105",
+  "way": "Прикладна фізика та наноматеріали",
+  "hostel": false,
   "noob": false
 }, {
-  "name": "Юля",
-  "page": "vk.com/id125902452",
-  "faculty": "IPSA",
-  "code": "124",
-  "way": "Системний аналіз",
+  "name": "Игорь",
+  "page": "vk.com/id50887357",
+  "faculty": "FTI",
+  "code": "105",
+  "way": "Прикладна фізика та наноматеріали",
   "hostel": true,
   "noob": true
 }, {
@@ -3151,6 +3151,38 @@
   "hostel": false,
   "noob": false
 }, {
+  "name": "Артём",
+  "page": "vk.com/id135901574",
+  "faculty": "IPSA",
+  "code": "124",
+  "way": "Системний аналіз",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Марьяна",
+  "page": "vk.com/id151756575",
+  "faculty": "IPSA",
+  "code": "124",
+  "way": "Системний аналіз",
+  "hostel": false,
+  "noob": true
+}, {
+  "name": "Оля",
+  "page": "vk.com/id17513783",
+  "faculty": "IPSA",
+  "code": "124",
+  "way": "Системний аналіз",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Юля",
+  "page": "vk.com/id125902452",
+  "faculty": "IPSA",
+  "code": "124",
+  "way": "Системний аналіз",
+  "hostel": true,
+  "noob": true
+}, {
   "name": "Дмитрий",
   "page": "vk.com/id7444747",
   "faculty": "FSP",
@@ -3159,30 +3191,6 @@
   "hostel": false,
   "noob": false
 }, {
-  "name": "Леся",
-  "page": "vk.com/id23332816",
-  "faculty": "FSP",
-  "code": "054",
-  "way": "Соціологія",
-  "hostel": false,
-  "noob": true
-}, {
-  "name": "Ангеліна",
-  "page": "vk.com/id112831697",
-  "faculty": "FSP",
-  "code": "054",
-  "way": "Соціологія",
-  "hostel": true,
-  "noob": true
-}, {
-  "name": "Макс",
-  "page": "vk.com/id46135135",
-  "faculty": "FSP",
-  "code": "054",
-  "way": "Соціологія",
-  "hostel": true,
-  "noob": true
-}, {
   "name": "Рина",
   "code": "054",
   "faculty": "FSP",
@@ -3190,14 +3198,6 @@
   "noob": true,
   "hostel": false,
   "page": "vk.com/id91576175"
-}, {
-  "name": "Вика",
-  "page": "vk.com/id131925270",
-  "faculty": "FSP",
-  "code": "054",
-  "way": "Соціологія",
-  "hostel": false,
-  "noob": true
 }, {
   "name": "Анна",
   "page": "vk.com/id19404005",
@@ -3215,35 +3215,35 @@
   "hostel": false,
   "noob": false
 }, {
-  "name": "Витя",
-  "page": "vk.com/id42062431",
-  "faculty": "ITS",
-  "code": "172",
-  "way": "Телекомунікації та радіотехніка",
+  "name": "Макс",
+  "page": "vk.com/id46135135",
+  "faculty": "FSP",
+  "code": "054",
+  "way": "Соціологія",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Леся",
+  "page": "vk.com/id23332816",
+  "faculty": "FSP",
+  "code": "054",
+  "way": "Соціологія",
   "hostel": false,
   "noob": true
 }, {
-  "name": "Юля",
-  "page": "vk.com/id44656466",
-  "faculty": "ITS",
-  "code": "172",
-  "way": "Телекомунікації та радіотехніка",
+  "name": "Ангеліна",
+  "page": "vk.com/id112831697",
+  "faculty": "FSP",
+  "code": "054",
+  "way": "Соціологія",
   "hostel": true,
   "noob": true
 }, {
-  "name": "Віталій",
-  "page": "vk.com/id61288976",
-  "faculty": "ITS",
-  "code": "172",
-  "way": "Телекомунікації та радіотехніка",
-  "hostel": true,
-  "noob": true
-}, {
-  "name": "Никита",
-  "page": "vk.com/id43058178",
-  "faculty": "ITS",
-  "code": "172",
-  "way": "Телекомунікації та радіотехніка",
+  "name": "Вика",
+  "page": "vk.com/id131925270",
+  "faculty": "FSP",
+  "code": "054",
+  "way": "Соціологія",
   "hostel": false,
   "noob": true
 }, {
@@ -3463,37 +3463,37 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Назар",
+  "name": "Витя",
+  "page": "vk.com/id42062431",
+  "faculty": "ITS",
   "code": "172",
-  "faculty": "FEL",
-  "way": "Телекомцнікації та радіотехніка",
-  "noob": true,
-  "hostel": true,
-  "page": "vk.com/id141653211"
-}, {
-  "name": "Дашуля",
-  "page": "vk.com/id139202973",
-  "faculty": "FEL",
-  "code": "172",
-  "way": "Телекомцнікації та радіотехніка",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Анастасия",
-  "page": "vk.com/id25287414",
-  "faculty": "FEL",
-  "code": "172",
-  "way": "Телекомцнікації та радіотехніка",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Сергій",
-  "code": "172",
-  "faculty": "FEL",
-  "way": "Телекомцнікації та радіотехніка",
-  "noob": true,
+  "way": "Телекомунікації та радіотехніка",
   "hostel": false,
-  "page": "vk.com/id132962835"
+  "noob": true
+}, {
+  "name": "Юля",
+  "page": "vk.com/id44656466",
+  "faculty": "ITS",
+  "code": "172",
+  "way": "Телекомунікації та радіотехніка",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Віталій",
+  "page": "vk.com/id61288976",
+  "faculty": "ITS",
+  "code": "172",
+  "way": "Телекомунікації та радіотехніка",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Никита",
+  "page": "vk.com/id43058178",
+  "faculty": "ITS",
+  "code": "172",
+  "way": "Телекомунікації та радіотехніка",
+  "hostel": false,
+  "noob": true
 }, {
   "name": "Станислав",
   "page": "vk.com/id13810443",
@@ -3503,13 +3503,13 @@
   "hostel": false,
   "noob": false
 }, {
-  "name": "Сергей",
-  "code": "172",
+  "name": "Александр",
+  "page": "vk.com/id61785476",
   "faculty": "FEL",
+  "code": "172",
   "way": "Телекомцнікації та радіотехніка",
-  "noob": false,
-  "hostel": true,
-  "page": "vk.com/id85792734"
+  "hostel": false,
+  "noob": false
 }, {
   "name": "Владислав",
   "code": "172",
@@ -3527,13 +3527,13 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Александр",
-  "page": "vk.com/id61785476",
-  "faculty": "FEL",
+  "name": "Сергій",
   "code": "172",
+  "faculty": "FEL",
   "way": "Телекомцнікації та радіотехніка",
+  "noob": true,
   "hostel": false,
-  "noob": false
+  "page": "vk.com/id132962835"
 }, {
   "name": "Юра",
   "code": "172",
@@ -3599,20 +3599,44 @@
   "hostel": false,
   "page": "vk.com/id65631767"
 }, {
+  "name": "Назар",
+  "code": "172",
+  "faculty": "FEL",
+  "way": "Телекомцнікації та радіотехніка",
+  "noob": true,
+  "hostel": true,
+  "page": "vk.com/id141653211"
+}, {
+  "name": "Дашуля",
+  "page": "vk.com/id139202973",
+  "faculty": "FEL",
+  "code": "172",
+  "way": "Телекомцнікації та радіотехніка",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Анастасия",
+  "page": "vk.com/id25287414",
+  "faculty": "FEL",
+  "code": "172",
+  "way": "Телекомцнікації та радіотехніка",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Сергей",
+  "code": "172",
+  "faculty": "FEL",
+  "way": "Телекомцнікації та радіотехніка",
+  "noob": false,
+  "hostel": true,
+  "page": "vk.com/id85792734"
+}, {
   "name": "Борис",
   "page": "vk.com/id50342707",
   "faculty": "TEF",
   "code": "144",
   "way": "Теплоенергетика",
   "hostel": true,
-  "noob": false
-}, {
-  "name": "Даниил",
-  "page": "vk.com/id14267038",
-  "faculty": "FMF",
-  "code": "104",
-  "way": "Фізика та астрономія",
-  "hostel": false,
   "noob": false
 }, {
   "name": "Паша",
@@ -3631,20 +3655,20 @@
   "hostel": true,
   "noob": false
 }, {
+  "name": "Даниил",
+  "page": "vk.com/id14267038",
+  "faculty": "FMF",
+  "code": "104",
+  "way": "Фізика та астрономія",
+  "hostel": false,
+  "noob": false
+}, {
   "name": "Елизавета",
   "page": "vk.com/id56613102",
   "faculty": "FBMI",
   "code": "227",
   "way": "Фізична реабілітація",
   "hostel": false,
-  "noob": true
-}, {
-  "name": "Алексей",
-  "page": "vk.com/id137645407",
-  "faculty": "FBMI",
-  "code": "227",
-  "way": "Фізична реабілітація",
-  "hostel": true,
   "noob": true
 }, {
   "name": "Вова",
@@ -3665,6 +3689,14 @@
 }, {
   "name": "Світлана",
   "page": "vk.com/id97653169",
+  "faculty": "FBMI",
+  "code": "227",
+  "way": "Фізична реабілітація",
+  "hostel": true,
+  "noob": true
+}, {
+  "name": "Алексей",
+  "page": "vk.com/id137645407",
   "faculty": "FBMI",
   "code": "227",
   "way": "Фізична реабілітація",
@@ -3719,13 +3751,13 @@
   "hostel": false,
   "noob": true
 }, {
-  "name": "Ірочка",
-  "page": "vk.com/id151386360",
+  "name": "Назар",
+  "page": "vk.com/id110317230",
   "faculty": "FL",
   "code": "035",
   "way": "Філологія (німецька)",
   "hostel": true,
-  "noob": true
+  "noob": false
 }, {
   "name": "Александра",
   "page": "vk.com/id27007378",
@@ -3735,53 +3767,21 @@
   "hostel": true,
   "noob": false
 }, {
-  "name": "Назар",
-  "page": "vk.com/id110317230",
+  "name": "Ірочка",
+  "page": "vk.com/id151386360",
   "faculty": "FL",
   "code": "035",
   "way": "Філологія (німецька)",
   "hostel": true,
-  "noob": false
+  "noob": true
 }, {
-  "name": "Сергей",
-  "page": "vk.com/id19158307",
-  "faculty": "HTF",
+  "name": "Ника",
   "code": "161",
+  "faculty": "HTF",
   "way": "Хімічна технологія та інженерія",
+  "noob": false,
   "hostel": true,
-  "noob": false
-}, {
-  "name": "Вадим",
-  "page": "vk.com/id28946895",
-  "faculty": "HTF",
-  "code": "161",
-  "way": "Хімічна технологія та інженерія",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Тимофей",
-  "page": "vk.com/id111301529",
-  "faculty": "HTF",
-  "code": "161",
-  "way": "Хімічна технологія та інженерія",
-  "hostel": false,
-  "noob": false
-}, {
-  "name": "Марина",
-  "page": "vk.com/id107442365",
-  "faculty": "HTF",
-  "code": "161",
-  "way": "Хімічна технологія та інженерія",
-  "hostel": true,
-  "noob": false
-}, {
-  "name": "Максим",
-  "page": "vk.com/id67213776",
-  "faculty": "HTF",
-  "code": "161",
-  "way": "Хімічна технологія та інженерія",
-  "hostel": true,
-  "noob": false
+  "page": "vk.com/id69618246"
 }, {
   "name": "Олексій",
   "page": "vk.com/id15702795",
@@ -3815,13 +3815,13 @@
   "hostel": true,
   "noob": true
 }, {
-  "name": "Ника",
-  "code": "161",
+  "name": "Тимофей",
+  "page": "vk.com/id111301529",
   "faculty": "HTF",
+  "code": "161",
   "way": "Хімічна технологія та інженерія",
-  "noob": false,
-  "hostel": true,
-  "page": "vk.com/id69618246"
+  "hostel": false,
+  "noob": false
 }, {
   "name": "Іра",
   "page": "vk.com/id105220656",
@@ -3846,4 +3846,36 @@
   "way": "Хімічна технологія та інженерія",
   "hostel": false,
   "noob": true
+}, {
+  "name": "Сергей",
+  "page": "vk.com/id19158307",
+  "faculty": "HTF",
+  "code": "161",
+  "way": "Хімічна технологія та інженерія",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Марина",
+  "page": "vk.com/id107442365",
+  "faculty": "HTF",
+  "code": "161",
+  "way": "Хімічна технологія та інженерія",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Максим",
+  "page": "vk.com/id67213776",
+  "faculty": "HTF",
+  "code": "161",
+  "way": "Хімічна технологія та інженерія",
+  "hostel": true,
+  "noob": false
+}, {
+  "name": "Вадим",
+  "page": "vk.com/id28946895",
+  "faculty": "HTF",
+  "code": "161",
+  "way": "Хімічна технологія та інженерія",
+  "hostel": true,
+  "noob": false
 }]
