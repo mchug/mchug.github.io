@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" type="image/icon" href="favicon.ico" />
+	<title>Crypto-Piano - because we can!</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="./css/piano.css" type="text/css" />
+	<script src="./js/sjcl.js"></script>
+	<script src="./js/audiosynth.js"></script>
+	<script src="./js/audiosynth.view.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container" style="width: 840px">
+		<div class="row">
+			<div class="title">Crypto-Piano - because we can!</div>
+			<h4>Input<span class="pull-right"><small>change mode here </small>
+                    <span class="btn btn-xs btn-default" id="btn-mode-encrypt">Encryption</span>
+				<span class="btn btn-xs btn-default" id="btn-mode-decrypt">Decryption</span>
+				</span>
+			</h4>
+			<div class="form-group">
+				<textarea class="form-control persist" id="input"></textarea>
+			</div>
+			<h4>Output<span class="pull-right"><small>watch result here</small>
+				<span class="btn btn-xs btn-primary" id="btn-doit">Do it!</span>
+				</span>
+			</h4>
+			<div class="form-group">
+				<textarea class="form-control persist" id="output"></textarea>
+			</div>
+			<h4>Key<span class="pull-right"><small>press "space" to </small>
+                    <span class="btn btn-xs btn-danger" id="btn-clear-key">Clear</span>
+				</span>
+			</h4>
+			<div class="form-group">
+				<textarea class="form-control persist" id="key"></textarea>
+			</div>
+
+			<div id="keyboard" class="keyboard-holder"></div>
+
+			<footer style="color: #777">
+				<small>ecnryption by <a href="http://bitwiseshiftleft.github.io/sjcl/">Stanford Javascript Crypto Library</a></small>
+				<span class="pull-right">
+				<small>created by <a href="http://mchug.github.io/">Maxim Chugaevsky</a></small>
+				</span>
+				<br>
+				<small>piano by <a href="http://www.keithwhor.com/music/">Keith William Horwood</a></small>
+			</footer>
+			</h4>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var _0x6e28=["\x62\x74\x6E\x2D\x6D\x6F\x64\x65\x2D\x65\x6E\x63\x72\x79\x70\x74","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x62\x74\x6E\x2D\x6D\x6F\x64\x65\x2D\x64\x65\x63\x72\x79\x70\x74","\x62\x74\x6E\x2D\x64\x6F\x69\x74","\x62\x74\x6E\x2D\x63\x6C\x65\x61\x72\x2D\x6B\x65\x79","\x69\x6E\x70\x75\x74","\x6F\x75\x74\x70\x75\x74","\x6B\x65\x79","\x51\x51\x30\x39\x6E\x47\x63\x55\x55\x78\x53\x56\x6B\x30\x6D\x67\x4E\x6B\x62\x7A\x6D\x41","\x63\x63\x6D","","\x61\x65\x73","\x34\x5A\x35\x73\x4A\x68\x61\x35\x51\x32\x59","\x76\x61\x6C\x75\x65","\x65\x6E\x63\x72\x79\x70\x74","\x63\x74","\x70\x61\x72\x73\x65","\x69\x76","\x76","\x69\x74\x65\x72","\x6B\x73","\x74\x73","\x6D\x6F\x64\x65","\x61\x64\x61\x74\x61","\x63\x69\x70\x68\x65\x72","\x73\x61\x6C\x74","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x64\x65\x63\x72\x79\x70\x74","\x74\x65\x73\x74","\x3D\x28","\x3D\x3C","\x3B\x28","\x3B\x3C","\x3A\x28","\x3A\x3C","\x72\x61\x6E\x64\x6F\x6D","\x6C\x65\x6E\x67\x74\x68","\x66\x6C\x6F\x6F\x72","\x6F\x6E\x63\x6C\x69\x63\x6B","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x62\x74\x6E\x20\x62\x74\x6E\x2D\x78\x73\x20\x62\x74\x6E\x2D\x73\x75\x63\x63\x65\x73\x73","\x62\x74\x6E\x20\x62\x74\x6E\x2D\x78\x73\x20\x62\x74\x6E\x2D\x64\x65\x66\x61\x75\x6C\x74","\x63\x6C\x69\x63\x6B","\x6F\x6E\x6B\x65\x79\x75\x70","\x62\x6F\x64\x79","\x6B\x65\x79\x43\x6F\x64\x65","\x64\x72\x61\x77","\x61\x64\x64\x4C\x69\x73\x74\x65\x6E\x65\x72"];var btnEncrypt=document[_0x6e28[1]](_0x6e28[0]);var btnDecrypt=document[_0x6e28[1]](_0x6e28[2]);var btnDoit=document[_0x6e28[1]](_0x6e28[3]);var btnClear=document[_0x6e28[1]](_0x6e28[4]);var formInput=document[_0x6e28[1]](_0x6e28[5]);var formOutput=document[_0x6e28[1]](_0x6e28[6]);var formKey=document[_0x6e28[1]](_0x6e28[7]);var params={"\x69\x76":_0x6e28[8],"\x76":1,"\x69\x74\x65\x72":1000,"\x6B\x73":128,"\x74\x73":64,"\x6D\x6F\x64\x65":_0x6e28[9],"\x61\x64\x61\x74\x61":_0x6e28[10],"\x63\x69\x70\x68\x65\x72":_0x6e28[11],"\x73\x61\x6C\x74":_0x6e28[12]};var currentMode=null;function encryptionMode(){var _0xfb8cxb=formKey[_0x6e28[13]];var _0xfb8cxc=formInput[_0x6e28[13]];var _0xfb8cxd=sjcl[_0x6e28[14]](_0xfb8cxb,_0xfb8cxc,params);formOutput[_0x6e28[13]]= JSON[_0x6e28[16]](_0xfb8cxd)[_0x6e28[15]]}function decryptionMode(){var _0xfb8cxb=formKey[_0x6e28[13]];var _0xfb8cxc=formInput[_0x6e28[13]];var _0xfb8cxf={iv:params[_0x6e28[17]],v:params[_0x6e28[18]],iter:params[_0x6e28[19]],ks:params[_0x6e28[20]],ts:params[_0x6e28[21]],mode:params[_0x6e28[22]],adata:params[_0x6e28[23]],cipher:params[_0x6e28[24]],salt:params[_0x6e28[25]],ct:_0xfb8cxc};try{var _0xfb8cxd=sjcl[_0x6e28[27]](_0xfb8cxb,JSON[_0x6e28[26]](_0xfb8cxf));formOutput[_0x6e28[13]]= _0xfb8cxd}catch(ex){if(!/^[=(<;:]+$/[_0x6e28[28]](formOutput[_0x6e28[13]])){formOutput[_0x6e28[13]]= _0x6e28[10]};var _0xfb8cx10=[_0x6e28[29],_0x6e28[30],_0x6e28[31],_0x6e28[32],_0x6e28[33],_0x6e28[34]];formOutput[_0x6e28[13]]+= _0xfb8cx10[Math[_0x6e28[37]](Math[_0x6e28[35]]()* _0xfb8cx10[_0x6e28[36]])]}}function doit(){currentMode()}function clearKey(){formKey[_0x6e28[13]]= _0x6e28[10]}function recordKey(_0xfb8cx14,_0xfb8cx15){formKey[_0x6e28[13]]+= _0xfb8cx14+ _0xfb8cx15;doit()}btnEncrypt[_0x6e28[38]]= function(){btnEncrypt[_0x6e28[39]]= _0x6e28[40];btnDecrypt[_0x6e28[39]]= _0x6e28[41];currentMode= encryptionMode};btnDecrypt[_0x6e28[38]]= function(){btnEncrypt[_0x6e28[39]]= _0x6e28[41];btnDecrypt[_0x6e28[39]]= _0x6e28[40];currentMode= decryptionMode};btnDoit[_0x6e28[38]]= doit;btnClear[_0x6e28[38]]= clearKey;btnEncrypt[_0x6e28[42]]();document[_0x6e28[44]][_0x6e28[43]]= function(_0xfb8cx16){if(_0xfb8cx16[_0x6e28[45]]== 32){clearKey()}};var a= new AudioSynthView();a[_0x6e28[46]]();a[_0x6e28[47]](recordKey)
+	</script>
+</body>
+
+</html>
